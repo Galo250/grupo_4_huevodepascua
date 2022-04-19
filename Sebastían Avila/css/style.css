@@ -1,0 +1,70 @@
+html{
+    background-color: rgb(235, 233, 233);
+}
+
+body{
+    margin: 0%;
+}
+
+/* Comienzo del Header/Nav */
+
+
+nav{ 
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+nav a{
+    text-decoration: none;
+    color: #7223A5;
+}
+
+nav a:hover{
+    text-decoration: underline 3px;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 1.8em;
+    color: #7223A5;
+}
+
+.submit{
+    background-color: #7223A5;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    width: 100px;;
+    height: 30px;
+    color: #fff;
+}
+
+.submit:hover{
+    background-color: #166bda;
+}
+   
+/* Fin del Header/Nav */
+
+/* Comienzo del Main */
+
+
+main{display: flex;}
+
+.presentacion{
+    margin-left: 300px;
+    width: 450px;
+}
+
+.pres1{
+    font-weight: bolder;
+    font-size: 3.8em;
+    color: #8d8d8d;
+}
+
+span{color:#7223A5}
