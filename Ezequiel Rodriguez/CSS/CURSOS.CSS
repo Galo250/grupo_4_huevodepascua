@@ -55,8 +55,8 @@ nav a:hover {
 /*Inicio del Main/Section*/
 
 h2{
-    margin-top: 2em;
-    font-size: 1.8em;
+    margin-top: 1.1em;
+    font-size: 2.5em;
     color: #89868A;
     text-align: center;
 }
@@ -68,10 +68,6 @@ h2{
     flex-wrap: wrap;
 }
 
-svg{
-    width: 400px;
-}
-
 .cursos-a{
     margin-right: 5px;
 }
@@ -80,4 +76,15 @@ svg{
     margin-left: 5px;
 }
 
+svg{
+    width: 400px;
+}
+
+.opciones-cursos h3{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    color: #89868A;
+}
 /*Fin del Main/Section*/
