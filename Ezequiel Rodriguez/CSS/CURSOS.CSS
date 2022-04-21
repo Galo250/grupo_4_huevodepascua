@@ -1,4 +1,8 @@
 /*Inicio diseños generales*/
+*{
+    box-sizing: border-box;
+}
+
 html{
     font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     background-color: rgb(235, 233, 233);
@@ -62,28 +66,35 @@ h2{
 
 .opciones-cursos{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
-}
-
-.cursos-a{
-    margin-right: 5px;
-}
-
-.cursos-b{
-    margin-left: 5px;
-}
-
-svg{
-    width: 400px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .opciones-cursos h3{
     text-align: center;
     font-size: 2em;
     margin-top: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     color: #89868A;
+}
+
+
+.cursos-a-front{
+    margin-right: 5px;
+    margin-top: 30px;
+    background: #eeeded;
+    border-radius: 15px;
+}
+
+.cursos-b-front{
+    margin-left: 5px;
+    margin-top: 30px;
+    background: #eeeded;
+    border-radius: 15px;
+}
+
+svg{
+    width: 400px;
 }
 /*Fin del Main/Section*/
