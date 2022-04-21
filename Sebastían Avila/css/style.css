@@ -183,6 +183,7 @@ h4{
     padding-right: 3.3em;
     width: 200px;
     margin: auto;
+    
 }
    
 .cssbuttons-io-button .icon {
@@ -212,6 +213,7 @@ h4{
    
 .cssbuttons-io-button:hover .icon svg {
     transform: translateX(0.1em);
+    
 }
    
 .cssbuttons-io-button:active .icon {
@@ -219,8 +221,11 @@ h4{
 }
    
 
-div a{text-decoration: none;}
-
+div a{
+    text-decoration: none;
+    width: 200px;
+    margin: auto;
+}
 
 /* Fin del Main/Body */
 
@@ -256,12 +261,19 @@ hr{
     background-color:#72476c;
 }
 
+
 .fa-brands{
     color: #fff;
     font-size: 1.8em;
+
+}
+
+.fa-brands:hover{
+    color: #969696;
 }
 
 .foot a{
+  margin-right: 5px;
     color: #fff;
 }
 
