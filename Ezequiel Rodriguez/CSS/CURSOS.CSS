@@ -1,3 +1,4 @@
+/*Inicio diseños generales*/
 html{
     font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     background-color: rgb(235, 233, 233);
@@ -6,117 +7,77 @@ html{
 body{
     margin: 0%;
 }
+/*Fin diseños generales*/
 
 /* Comienzo del Header/Nav */
 
-
-nav{ 
+nav {
     background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-   
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #7223A5;
 }
 
-nav a:hover{
+nav a:hover {
     text-decoration: underline 3px;
 }
 
-.logo{
+.logo {
     font-weight: bolder;
     font-size: 1.8em;
     color: #7223A5;
 }
 
-.submit{
+.submit {
     background-color: #7223A5;
     border: none;
     border-radius: 4px;
     font-size: 15px;
-    width: 100px;;
+    width: 100px;
+    ;
     height: 30px;
     color: #fff;
 }
 
-.submit:hover{
+.submit:hover {
     background-color: #166bda;
 }
-   
 /* Fin del Header/Nav */
 
-/* Comienzo del Main/Body */
 
+/*Inicio del Main/Section*/
 
-main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
-
-.img{
-    height: 600px;
-    width: 600px;
-   
-}
-
-.presentacion{
-    width: 450px;
-}
-
-
-.pres1{
-    font-weight: bolder;
-    font-size: 3.8em;
-    color: #b3b3b3;
-}
-
-span{color:#7223A5}
-
-.pres2{
-    color: #969696;
-    margin: 0px;
+h2{
+    margin-top: 2em;
     font-size: 1.8em;
+    color: #89868A;
+    text-align: center;
 }
 
-h1{text-align: center;
-color: #696969
-}
-
-.cont-interes{
+.opciones-cursos{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around
 }
 
-.interes{
-    height: 500px;
-    width: 500px;
-
-}
-.numero{
-    
-    
-    
-} 
- 
-
-
-h3{
-
-    text-align: center;
+svg{
+    width: 400px;
 }
 
-.comentario{
-    text-align: center;
-    font-size: 1.3em;
-    color: #969696;
+.cursos-a{
+    margin-right: 5px;
 }
+
+.cursos-b{
+    margin-left: 5px;
+}
+
+/*Fin del Main/Section*/
