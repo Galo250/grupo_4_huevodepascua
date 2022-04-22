@@ -1,4 +1,8 @@
 /*Inicio diseños generales*/
+*{
+    box-sizing: border-box;
+}
+
 html{
     font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     background-color: rgb(235, 233, 233);
@@ -8,6 +12,8 @@ body{
     margin: 0%;
 }
 /*Fin diseños generales*/
+
+
 
 /* Comienzo del Header/Nav */
 
@@ -51,6 +57,7 @@ nav a:hover {
 /* Fin del Header/Nav */
 
 
+
 /*Inicio del Main/Section*/
 
 h2{
@@ -62,28 +69,142 @@ h2{
 
 .opciones-cursos{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
-}
-
-.cursos-a{
-    margin-right: 5px;
-}
-
-.cursos-b{
-    margin-left: 5px;
-}
-
-svg{
-    width: 400px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .opciones-cursos h3{
     text-align: center;
     font-size: 2em;
     margin-top: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     color: #89868A;
 }
+
+
+.cursos-a-front{
+    margin-right: 5px;
+    margin-top: 30px;
+    background: #eeeded;
+    border-radius: 15px;
+}
+
+.cursos-b-front{
+    margin-left: 5px;
+    margin-top: 30px;
+    background: #eeeded;
+    border-radius: 15px;
+}
+
+svg{
+    width: 400px;
+}
+
+/*/*//*/* Inicio Boton de mas información *//*/*//*/*/
+
+.mas-informacion{
+    text-align: center;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+/* From uiverse.io by @adamgiebl */
+    button {
+    background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+    background-size: 800% 400%;
+    padding: 1em 2em;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    transition: all .5s ease-in-out;
+    animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+   }
+   
+   button:hover {
+    animation: gradient 3s infinite;
+    transform: scale(1.05);
+   }
+   
+   button:active {
+    animation: gradient 3s infinite;
+    transform: scale(0.8);
+   }
+   
+   @keyframes gradient {
+    0% {
+     background-position: 0% 50%;
+    }
+    50% {
+     background-position: 100% 50%;
+    }
+    100% {
+     background-position: 0% 50%;
+    }
+   }
+    /* Fin Boton de mas info */
+
 /*Fin del Main/Section*/
+
+
+
+/* Comienzo del Footer */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background-color: #282727;
+}
+
+.foot{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    color: #9F4DD4;
+    font-size: 1.3em;
+}
+
+hr{
+   margin: auto;
+    height:18vh;
+    width:.1vw;
+    border-width:0;
+    color:#634f67;
+    background-color:#72476c;
+}
+
+.fa-brands{
+    color: #fff;
+    font-size: 1.8em;
+
+}
+
+.fa-brands:hover{
+    color: #969696;
+}
+
+.foot a{
+    margin-right: 5px;
+    color: #fff;
+}
+
+.foot a:hover{
+    color: #a2a2a2;
+}
+
+.red{
+    height: 30px;
+    width: 30px;
+}
+
+.logo{
+    height: 100px;
+}
+/* Fin del Footer */
