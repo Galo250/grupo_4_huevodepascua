@@ -1,0 +1,289 @@
+/*Inicio diseños generales*/
+html {
+    font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    background-color: rgb(235, 233, 233);
+}
+
+*{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 0%;
+}
+
+/*Fin diseños generales*/
+
+/* Comienzo del Header/Nav */
+
+nav {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #7223A5;
+}
+
+nav a:hover {
+    text-decoration: underline 3px;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 1.8em;
+    color: #7223A5;
+}
+
+.submit {
+    background-color: #7223A5;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #166bda;
+    transition: all 200ms;
+}
+
+/* Fin del Header/Nav */
+
+/* Inicio del Main */
+
+
+main{
+    width: 100%;
+    padding: 20%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.caja__trasera{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,128,255,0.5);
+}
+
+.caja__trasera div{
+    margin: 100px 20px;
+    color: #fff;
+    transition: all 500ms;
+}
+
+.caja__trasera div p 
+.caja__trasera div button{
+    margin-top: 30px;
+}
+
+.caja__trasera div h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.caja__trasera button{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    transition: all 300ms;
+}
+
+.caja__trasera button:hover{
+    background-color: #fff;
+    color:#166bda;
+}
+
+/* Formularios*/
+
+
+.contenedor__login-register{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -155px;
+    left: 10px;
+} 
+
+
+.contenedor__login-register form{
+    width: 100%;
+    padding: 80px 20px;
+    background: #fff;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contenedor__login-register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #166bda;
+}
+
+.contenedor__login-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor__login-register form button{
+padding: 10px 40px;
+margin-top: 40px;
+border: none;
+font-size: 14px;
+background: #166bda;
+color: #fff;
+cursor: pointer;
+outline: none;
+}
+
+.formulario__login{
+    opacity: 1;
+    display: block;
+}
+
+
+.formulario__register{
+    display: none;
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 850px){
+    main{
+        margin-top: 50px;
+    }
+
+    .caja__trasera{
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .caja__trasera div{
+        margin: 0px;
+        position: absolute;
+    }
+
+    /* Formulario responsive */
+
+    .contenedor__login-register{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    } 
+
+    .contenedor__login-register form{
+        position: relative;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fin del Main */
+
+/* Comienzo del Footer */
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background-color: #282727;
+}
+
+
+.foot{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    color: #9F4DD4;
+    font-size: 1.3em;
+}
+
+
+hr{
+   margin: auto;
+    height:18vh;
+    width:.1vw;
+    border-width:0;
+    color:#634f67;
+    background-color:#72476c;
+}
+
+
+.fa-brands{
+    color: #fff;
+    font-size: 1.8em;
+
+}
+
+.fa-brands:hover{
+    color: #969696;
+}
+
+.foot a{
+  margin-right: 5px;
+    color: #fff;
+}
+
+.foot a:hover{
+    color: #a2a2a2;
+}
+
+.red{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+/* Fin del Footer */

@@ -45,10 +45,12 @@ nav a:hover {
     width: 140px;
     height: 40px;
     color: #fff;
+    cursor: pointer;
 }
 
 .submit:hover {
     background-color: #166bda;
+    transition: all 200ms;
 }
 
 /* Fin del Header/Nav */
@@ -150,6 +152,7 @@ h3 {
 
 
 h4{
+    margin-bottom: 15px;
     text-align: center;
     color: #7223A5;
     font-size: 2.5em;
@@ -183,7 +186,7 @@ h4{
     padding-right: 3.3em;
     width: 200px;
     margin: auto;
-    
+    cursor: pointer;
 }
    
 .cssbuttons-io-button .icon {
@@ -199,6 +202,7 @@ h4{
     box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
     right: 0.3em;
     transition: all 0.3s;
+    cursor: pointer;
 }
    
 .cssbuttons-io-button:hover .icon {
@@ -225,6 +229,7 @@ div a{
     text-decoration: none;
     width: 200px;
     margin: auto;
+    
 }
 
 /* Fin del Main/Body */
