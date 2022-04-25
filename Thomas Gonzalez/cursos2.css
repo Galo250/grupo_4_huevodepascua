@@ -1,5 +1,6 @@
 
 /*Inicio diseños generales*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -7,88 +8,303 @@
 html{
     font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     background-color: rgb(235, 233, 233);
-    
 }
 
 /*Fin diseños generales*/
 
-/* Comienzo del Header/Nav */
+/* Comienzo del Header/Nav  */
 
-nav {
+header nav {
     background-color: #fff;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    margin:auto;
+    height: 10vh;
+    width: 100%;
+    }
+.logoImg{
+    /* left: 2%; */
+    font-size: 2em;
+    font-weight: bolder;
+    font-size: 1.8em;
+    color: #7223A5;
+    display: flex;
+    width: 20%;
+    position: relative;
+    justify-content: flex-start;
+    
 }
-
+.secciones-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
 nav a {
     text-decoration: none;
     color: #7223A5;
 }
-
 nav a:hover {
-    text-decoration: underline 3px;
-    font-size: 1.3em;
-    
+    text-decoration: underline 3px;    
 }
-
-.logo {
-    font-weight: bolder;
-    font-size: 1.8em;
-    color: #7223A5;
-}
-
 .submit {
     background-color: #7223A5;
-    border: none;
+    border: 0.5px white solid;
     border-radius: 4px;
-    font-size: 15px;
+    font-size: 17px;
     width: 140px;
     height: 40px;
     color: #fff;
 }
-
 .submit:hover {
-    background-color: #166bda;
+    background-color: #5c405c;  /* #166bda */
     cursor: pointer;
     width: 180px;
     height: 50px;
+} 
+
+
+/* boton darkmode */
+
+.buttonNav{
+    display:flex;
+    position: relative; 
+    width: 5%;
 }
+
+.switch {
+    --secondary-container: #6f6971da;
+    --primary: #693889c8;
+    font-size: 12px;
+    display: flex;
+    width: 3.7em;
+    height: 1.8em;
+    position: relative;
+}
+
+.switch input {
+    display: none;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #673782;
+    transition: .2s;
+    border-radius: 30px;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 20px;
+    left: 0.2em;
+    bottom: 0.2em;
+    background-color: #aeaaae;
+    transition: .5s;
+    }
+input:checked + .slider::before {
+    background-color: var(--primary);
+}
+input:checked + .slider {
+    background-color: var(--secondary-container);
+}
+input:focus + .slider {
+box-shadow: 0 0 1px var(--secondary-container);
+}
+input:checked + .slider:before {
+    transform: translateX(1.9em);
+}
+/* botton fin */
+
 
 /* FIN NAV / HEADER */
 
+
+
 /* COMIENZO BODY */
 
-body,html{
+body,html, main{
     padding: 0;
     margin: 0;
     width: 100%;
-    display: block;
+    display: block; 
+    flex-direction: column;/* para darle a cada elemento lugar block */
 }
-main{
-    display: inline-block;
-    
-}
-.container{
+.infoPrincipal {
     display: flex;
     flex-flow: column nowrap;
-    /* justify-content: flex-start; */
-
-}
-.card {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 25%;
     justify-content: center;
     align-items: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 1em;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50vh;
+    background-color: #673782;
 }
-.info {
-    margin-top: 4em;
-    height: 300px;
+section .infoPrincipal h1 h2 {
+    word-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+section .infoPrincipal h3{
+    font-weight: 600;
+    margin-left: 20%;
+}
+.container-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
     text-align: center;
-    word-spacing: 4px;
-    font-size: 26px;
+
+}
+.container-cards .card{
+    display: flex;
+    flex-flow: column wrap;
+    border: solid rgb(24, 20, 20) 5px;
+    flex-basis: 34%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.container-cards .card:hover{
+    /* transition: .3s; */
+    flex-basis: 35%;
+    cursor: pointer;
+    background-color: rgba(138, 130, 130, 0.582);
+
+}
+.card h3 h4 p{
+    justify-content: center;
+    align-items: center;   
+}
+.image img{ /* Por si se agregan otras imagenes */
+    width: 100%;
+    border-radius: 20px;
+}
+
+.button{
+    display: block;
+    justify-content: flex-end;
+    align-content: center; 
+    position: relative;
+}
+
+
+/* Footer estilo */
+footer{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(62, 58, 58, 0.87);
+}
+
+.container-foot{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 100%;
+    border-top:solid 2.5px rgb(98, 81, 81);
+    
+    } 
+.container-foot .hexagonArea{
+    display: flex;
+    justify-content: center;
+    
+}
+.container-foot .hexagonArea .hexagon {
+    position: relative;
+    width: 100px;
+    height: 80px;              /* MEDIDAS HEXAGONOS */
+    margin: 15px 15px;
+    clip-path: polygon(0 25%,50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: rgba(135, 67, 108, 0.91);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    cursor: pointer;
+    transition: .3s;
+}
+.container-foot .hexagonArea .last{
+    transform: translateY(-45px);
+    
+}
+.container-foot .hexagonArea .hexagon img { /* Por si agregamos las imagenes */
+    width: 0px;
+}
+.container-foot .hexagonArea .hexagon h3 {  /* letras del h3 */
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container-foot .hexagonArea .hexagon:hover{  /* Hover de los hexagonos */
+    background-color: rgba(61, 48, 65, 0.873);
+    transform:scale(1.2) ;
+    color: white;
+}
+
+/* TEXTO FOOTER */
+.footerInfo{
+    display: flex;
+    margin: 5px 10px;
+    justify-content: center;
+}
+.info-footer{
+    width: 100%;
+}
+
+
+
+/* DARK MODE */
+.darkmode {
+    background-color: rgb(6, 6, 6);
+}
+.darkmode .info{
+    color: white;
+    background-color: black;
+}
+.darkmode section {
+    background-color: rgb(8, 8, 7);
+    color: rgb(202, 186, 186);
+}
+.darkmode .card a{
+    text-decoration: none;
+    color: rgb(151, 140, 140);
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    cursor: pointer;    
+}
+.darkmode .container-foot{
+    background-color:rgb(19, 12, 85);
+}
+.darkmode .container-foot .hexagonArea .hexagon{
+    background-color: #b0a7b3;
+    color: rgba(15, 36, 83, 0.781);
+} 
+.darkmode .card{
+    border: solid 2px white;
+}
+.darkmode .secciones-nav a {
+    color: rgb(172, 167, 167);
+}
+.darkmode nav .secciones-nav input {
+    color: rgb(172, 167, 167);
 }
