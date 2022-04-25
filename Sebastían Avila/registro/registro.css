@@ -4,9 +4,9 @@ html {
     background-color: rgb(235, 233, 233);
 }
 
-* {
-    margin: 0px;
-    padding: 0;
+*{
+    margin:0px;
+    padding:0;
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -64,61 +64,16 @@ nav a:hover {
 
 /* Inicio del Main */
 
-.carrusel {
-    width: 90%;
-    max-width: 120em;
-    background-color: lightblue;
-    padding: 2em;
-   
-}
-
-.carrusel .grande {
+.cont-form{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 200%;
-    background-color: orange;
-    padding: 2em;
-
-    transition: all .5s ease;
-    transform: translateX(-50% );
-}
-
-.carrusel .img {
-    width: calc( 100% / 2 -2em);
-    background-color: lime;
-    min-height: 10vh;
-}
-
-.carrusel .puntos {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: red;
-    padding: .4em;
-    margin: 1em 0 0;
-    list-style: none;
-   
-}
-
-.carrusel .punto {
-    width: 2em;
-    height: 2em;
-    background-color: blue;
-    margin: 1em 1em 0;
-}
-
-.carrusel .punto.activo{
-    background-color: orange;
+    flex-direction: row;
+    
 }
 
 
-img{
-    height: 400px;
-}
+
+
+
 
 
 
@@ -130,7 +85,7 @@ img{
 /* Comienzo del Footer */
 
 
-footer {
+footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -141,7 +96,7 @@ footer {
 }
 
 
-.foot {
+.foot{
     height: 200px;
     width: 400px;
     text-align: center;
@@ -150,36 +105,36 @@ footer {
 }
 
 
-hr {
-    margin: auto;
-    height: 18vh;
-    width: .1vw;
-    border-width: 0;
-    color: #634f67;
-    background-color: #72476c;
+hr{
+   margin: auto;
+    height:18vh;
+    width:.1vw;
+    border-width:0;
+    color:#634f67;
+    background-color:#72476c;
 }
 
 
-.fa-brands {
+.fa-brands{
     color: #fff;
     font-size: 1.8em;
 
 }
 
-.fa-brands:hover {
+.fa-brands:hover{
     color: #969696;
 }
 
-.foot a {
-    margin-right: 5px;
+.foot a{
+  margin-right: 5px;
     color: #fff;
 }
 
-.foot a:hover {
+.foot a:hover{
     color: #a2a2a2;
 }
 
-.red {
+.red{
     height: 30px;
     width: 30px;
 }

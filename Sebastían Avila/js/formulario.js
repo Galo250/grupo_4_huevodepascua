@@ -1,30 +1,20 @@
-document.getElementById("btn__register").addEventListener("click", register);
 
 
 
-var contenedor_login_register = document.querySelector(".contenedor__login-register");
+const grande = document.querySelector(`.grande`);
+const punto = document.querySelector(`.punto`);
 
-var formulario_login = document.querySelector(".formulario__login");
+punto.forEach((cadaPunto, i) => {
+    punto[i].addEventListener(`click`, () => {
+        let posicion = i
+        let operacion = posicion * -50
+        grande.style.transform = `translateX ${operacion}%)`
 
-var formulario_register = document.querySelector(".formulario__register");
+        punto.forEach( ( cadaPunto , i )=> {
+            punto[i].classList.remove(`activo`)
+        })
+punto[i].classList.add(`activo`)
 
-var caja_trasera_login = document.querySelector("caja_trasera_login");
+    })
 
-var caja_trasera_register = document.querySelector("caja_trasera_register");
-
-
-
-
-
-function register(){
-    formulario_register.style.display = "block";
-
-    contenedor_login_register.style.left = "410px";
-
-    formulario_login.style.display = "none";
-
-    caja_trasera_register.style.opacity = "0";
-
-    caja_trasera_login.style.opacity = "1";
-}
-
+});
