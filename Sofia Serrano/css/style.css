@@ -60,7 +60,6 @@ nav a:hover {
 
 main {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
 
@@ -133,14 +132,16 @@ h3 {
     text-align: center;
 }
 
-
+.comentario {
+    text-align: center;
+    font-size: 1.3em;
+    color: #969696;
+}
 
 .comentario{
     width: 400px;
     margin: auto;
-    text-align: center;
-    font-size: 1.3em;
-    color: #969696;
+
 }
 
 
@@ -291,120 +292,5 @@ hr{
 }
 
 
+
 /* Fin del Footer */
-
-/* Inicio del Responsive */
-
-
-@media (max-width: 1100px){
-
-    
-body{
-    margin: 0%;
-}
-/* Inicio de header responsive */
-
-    nav a{
-        display: none;
-    }
-
-/* fin de header responsive */
-
-/* Inicio de body responsive */
-
-    main{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0px;
-        padding: 0px;
-    }
-
-
-    .presentacion .pres1{
-        font-size: 2.3em;
-    }
-
-    .presentacion .pres2{
-        font-size: 1.5em;
-    }
-
-    svg{
-        margin-top: 20px;
-        height: 500px;
-        width: 500px;
-
-    }
-
-    h1{
-        text-align: center;
-        font-size: 1.8em;
-    }
-
-    .cont-interes{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     margin: 0px;
-     padding: 0px;
-    }
-
-    h3{
-       text-align: center;
-       
-    }
-
-
-
-    h4{
-        font-size: 2em;
-    }
-
-    .cont-end p{
-        font-size: 1.3em;
-    }
-
-    /* fin de body responsive */
-}
-
-
-
-/* Medida 800 o menos */
-
-@media (max-width: 800px){
-
-
-
-
-    main{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-
-    .presentacion .pres1{
-        font-size: 1.5em;
-    }
-
-    .presentacion .pres2{
-        font-size: 1em;
-        width: 250px;
-    }
-
-    svg{
-    height: 300px;
-    width: 300px;}
-
-
-    .cont-interes{
-        display: flex;
-        flex-direction: column;
-      
-       }
-   
-       
-
-}
