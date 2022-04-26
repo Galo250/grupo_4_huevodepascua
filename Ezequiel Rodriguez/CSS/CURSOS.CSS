@@ -64,6 +64,7 @@ h2{
     margin-top: 1.1em;
     font-size: 2.5em;
     color: #89868A;
+    text-align: center;
 }
 
 /*CARDS*/
@@ -81,13 +82,13 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.cards-a{/* 
-	display: block;
- 	position: absolute; */	
-    /* top: 60%;
+.cards-a{ 
+	display: inline;
+ 	/* position: absolute;	
+    top: 60%;
 	left: 30%; */
 	width: 280px;
 	height: 450px;
@@ -97,10 +98,10 @@ h2{
 	cursor: pointer;
 }
 
-.cards-b{/* 
-	display: block;
-	position: absolute; */
-	/* top: 60%;
+.cards-b{
+	display: inline;
+	/* position: absolute;
+	top: 60%;
 	left: 70%; */
 	width: 280px;
 	height: 450px;
@@ -183,19 +184,29 @@ hr {
 }
 
 .back p {
-	font-size: 12px;
+	font-size: 20px;
 	color: #000;
-	line-height: 30px;
+	line-height: 28px;
 	text-align: center;
 	margin: 25px;
+}
+
+/*Cajas flex-box*/
+
+.box-cursos{
+	width: 400px;
+	height: 450px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 25px;
 }
 
 
 /*/*//*/* Inicio Boton de mas información *//*/*//*/*/
 .mas-informacion{
     text-align: center;
-    margin-top: 10em;
-    margin-bottom: 10em;
+    margin-top: 8em;
+    margin-bottom: 8em;
 }
 
 /* From uiverse.io by @adamgiebl */
@@ -297,3 +308,73 @@ footer hr{
 }
 
 /* Fin del Footer */
+
+
+/* Inicio MEDIA QUERIES - header responsive */
+@media (max-width: 740px){
+
+    nav a{
+        display: none;
+
+}
+}
+
+
+/* Fin MEDIA QUERIES - header responsive */
+
+/* Inicio MEDIA QUERIES - Cursos.html */
+
+@media (max-width: 1280px) {
+    
+    .box-cursos{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 25px;
+}
+}
+
+
+@media (max-width: 1200px) {
+    
+    .box-cursos{
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 25px;
+}
+}
+
+
+@media (max-width: 1120px) {
+    
+    .box-cursos{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 25px;
+}
+}
+
+
+@media (max-width: 1000px) {
+    
+    .box-cursos{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 25px;
+}
+}
+
+@media (max-width: 880px) {
+    
+    .mas-informacion{
+        text-align: center;
+        margin-top: 6em;
+        margin-bottom: 8em;
+    }
+}
+
+@media (max-width: 440px) {
+    
+    .box-cursos{
+        width: 300px;
+}
+}
