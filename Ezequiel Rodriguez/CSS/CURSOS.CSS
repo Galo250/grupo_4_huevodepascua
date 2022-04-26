@@ -309,6 +309,19 @@ footer hr{
 
 /* Fin del Footer */
 
+
+/* Inicio MEDIA QUERIES - header responsive */
+@media (max-width: 740px){
+
+    nav a{
+        display: none;
+
+}
+}
+
+
+/* Fin MEDIA QUERIES - header responsive */
+
 /* Inicio MEDIA QUERIES - Cursos.html */
 
 @media (max-width: 1280px) {
