@@ -385,6 +385,7 @@ body{
     }
 
 
+    
     .presentacion .pres1{
         font-size: 1.5em;
     }
@@ -392,6 +393,7 @@ body{
     .presentacion .pres2{
         font-size: 1em;
         width: 250px;
+        margin-left: 50px;
     }
 
     svg{

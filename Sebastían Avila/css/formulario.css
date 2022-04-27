@@ -1,17 +1,76 @@
+/*Inicio diseños generales*/
+html {
+  font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  background-color: rgb(235, 233, 233);
+}
 
 
+/*Fin diseños generales*/
 
+/* Comienzo del Header/Nav */
 
+nav {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 25px;
+}
 
-@charset "UTF-8";
+nav a {
+  text-decoration: none;
+  color: #7223A5;
+}
+
+nav a:hover {
+  text-decoration: underline 3px;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 1.8em;
+  color: #7223A5;
+}
+
+.submit {
+  background-color: #7223A5;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  width: 140px;
+  height: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #166bda;
+  transition: all 200ms;
+}
+
+/* Fin del Header/Nav */
+
 /* Aquí definimos las Custom properties */
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
 :root {
   --negro: #393939;
   --blanco: #ececec;
   --sombra-ppal: #c9c9c9;
   --sombra-sec: #ffffff;
   --borde-negro: #00000050;
-  --marcado: rgb(127, 195, 255);
+  --marcado: rgb(190, 19, 241);
   /* Tipografía */
   --tipo-principal: Helvetica, Arial, sans-serif;
 }
@@ -19,21 +78,6 @@
 
 
 
-/* Las adaptamos al modo oscuro */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --negro: #ececec;
-    --blanco: #303030;
-    --sombra-ppal: #242424;
-    --sombra-sec: #3c3c3c;
-    --borde-negro: #FFFFFF50;
-  }
-}
-/* Configuramos si un usuario ha activado el modo alto contraste. (BETA) */
-/*
-    Estilos generales para que las etiquetas no contengan propiedades
-    que nos estorben y en todos los navegadores se vean correctamente
-*/
 * {
   margin: 0;
   padding: 0;
@@ -49,109 +93,133 @@ img {
   display: block;
   object-fit: cover;
   object-position: center center;
+  margin-right: ;
 }
 
-a {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  font-size: inherit;
-}
 
-video {
-  max-width: 100%;
-  width: 100%;
-  display: block;
-  object-fit: cover;
-  object-position: center center;
-}
-
-p a {
-  display: inline;
-}
 
 li {
   list-style-type: none;
 }
 
-table, tr, td {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
-html {
-  scroll-behavior: smooth;
-}
 
-h1, h2, h3, h4, h5, h6, strong {
-  -webkit-hyphens: auto;
-          hyphens: auto;
-  font-weight: inherit;
-  font-size: inherit;
-}
 
 ::selection {
   background-color: var(--negro);
   color: var(--blanco);
 }
 
-form, input, textarea, select, button {
-  font-family: inherit;
-  font-size: inherit;
-  -webkit-hyphens: auto;
-          hyphens: auto;
-  background-color: transparent;
-  display: block;
-}
 
-body {
-  font-family: var(--tipo-principal);
-  font-size: 100%;
-  line-height: 1.4em;
-  min-height: 100vh;
-  background-color: var(--blanco);
-  color: var(--negro);
-  -webkit-hyphens: auto;
-          hyphens: auto;
-  font-smooth: always;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-}
 
 .carrousel {
-  width: 90%;
-  max-width: 120em;
-  padding: 2em;
-  color: var(--negro);
-  transition: all 0.4s ease;
+  margin-top: 20px;
   border-radius: 1em;
   background-color: var(--blanco);
   box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
   overflow: hidden;
 }
 
+.cont-login {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: calc(70% / 2);
+  height: 600px;
+  border-radius: 3%;
+  background-color: white;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  border-radius: 3%;
+  box-shadow: 7px 4px 28px 8px rgb(168, 168, 168);
+}
+
+.presentacion {
+  background: linear-gradient(90.37deg, #7223A5 27.73%, #2D23A5 57.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  margin-top: 60px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.presentacion1 {
+  margin-top: 40px;
+  font-size: 2em;
+  text-align: center;
+  color: rgb(186, 186, 186);
+}
+
+.logeo {
+  margin-top: 50px;
+  width: 50%;
+  height: 50px;
+  border: solid 1px black;
+  font-size: 1.5em;
+
+}
+
+
+
+
+.registrate {
+  background: linear-gradient(to bottom, #2F1C7F, #7428A8);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  border-radius: 3%;
+  -webkit-box-shadow: 7px 4px 28px 8px rgba(84, 84, 84, 1);
+  -moz-box-shadow: 7px 4px 28px 8px rgba(84, 84, 84, 1);
+  box-shadow: 7px 4px 28px 8px rgba(84, 84, 84, 1);
+}
+
+
+h2 {
+  font-size: 4em;
+  margin-top: 140px;
+  text-align: center;
+  color: #fff;
+  font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+
+.question {
+  font-size: 2em;
+  margin-top: 100px;
+  color: #fff;
+  text-align: center;
+}
+
 .carrousel .grande {
   width: 200%;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
   color: var(--negro);
   transition: all 0.4s ease;
   border-radius: 1em;
   background-color: var(--blanco);
   box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
-  padding: 2em;
+  padding: 0px;
   transition: all 0.5s ease;
   transform: translateX(0%);
 }
 
 .carrousel .img {
-  width: calc( 100% / 2 - 2em);
+  width: calc(100% / 2 - 2em);
   min-height: 10vh;
   color: var(--negro);
   transition: all 0.4s ease;
@@ -182,5 +250,72 @@ body {
 }
 
 .carrousel .punto.activo {
-  background-color: lightblue;
+  background-color: rgb(222, 60, 222);
 }
+
+
+
+/* Comienzo del Footer */
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  width: 100%;
+  height: 200px;
+  background-color: #282727;
+}
+
+
+.foot {
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  color: #9F4DD4;
+  font-size: 1.3em;
+}
+
+
+hr {
+  margin: auto;
+  height: 18vh;
+  width: .1vw;
+  border-width: 0;
+  color: #634f67;
+  background-color: #72476c;
+}
+
+
+.fa-brands {
+  color: #fff;
+  font-size: 1.8em;
+
+}
+
+.fa-brands:hover {
+  color: #969696;
+}
+
+.foot a {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.foot a:hover {
+  color: #a2a2a2;
+}
+
+.redes {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.red {
+  height: 30px;
+  width: 30px;
+}
+
+
+/* Fin del Footer */
