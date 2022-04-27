@@ -171,6 +171,10 @@ section .infoPrincipal h3{
     flex-wrap: wrap;
     width: 100%;
     text-align: center;
+    
+    -webkit-box-shadow: -4px -5px 23px -7px rgba(0,0,0,0.62);
+    -moz-box-shadow: -4px -5px 23px -7px rgba(0,0,0,0.62);
+    box-shadow: -4px -5px 23px -7px rgba(0,0,0,0.62);
 
 }
 .container-cards .card{
@@ -184,10 +188,15 @@ section .infoPrincipal h3{
     
 }
 .container-cards .card:hover{
-    /* transition: .3s; */
-    -webkit-box-shadow: -4px -5px 23px -7px rgba(0,0,0,0.62);
+    transition: .3s;
+    /* sombra izquierda */
+    -webkit-box-shadow: -4px -5px 23px -7px rgba(0,0,0,0.62),10px 15px 15px 7px rgba(0,0,0,0.62);
     -moz-box-shadow: -4px -5px 23px -7px rgba(0,0,0,0.62);
     box-shadow: -4px -5px 23px -7px rgba(0,0,0,0.62);
+    /* Sombra derecha */
+    /* -webkit-box-shadow: 10px 15px 15px 7px rgba(0,0,0,0.62);
+    -moz-box-shadow: 10px 15px 15px 7px rgba(0,0,0,0.62);
+    box-shadow: 10px 15px 15px 7px rgba(0,0,0,0.62); */
     cursor: pointer;
     
 
@@ -220,15 +229,14 @@ footer{
     display: flex;
     flex-direction:row;
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     background-color: rgba(62, 58, 58, 0.87);
 }
 
 .container-foot{
     display: flex;
-    justify-content:center ;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: row nowrap;
     width: 100%;
     border-top:solid 2.5px rgb(98, 81, 81);
     
@@ -257,7 +265,9 @@ footer{
     
 }
 .container-foot .hexagonArea .hexagon img { /* Por si agregamos las imagenes */
-    width: 0px;
+    width: 100%;
+    height: 80px;
+    clip-path: polygon(0 25%,50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
 }
 .container-foot .hexagonArea .hexagon h3 {  /* letras del h3 */
     text-transform: capitalize;
@@ -273,21 +283,43 @@ footer{
 }
 
 /* TEXTO FOOTER */
+.footercish{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 .footerInfo{
     display: flex;
     flex-direction: column;
     margin: 5px 10px;
-    justify-content: flex-end;
-    width: 60%;
+    justify-content: center;
+    width: 70%;
+    
 }
 .info-footer{
-    width: 100%;
+    width: 70%;
 }
 
 /* DARK MODE */
 .darkmode {
     background-color: rgb(6, 6, 6);
 }
+.darkmode .container-cards .card:hover{
+    /* transition: .3s; */
+    -webkit-box-shadow: -10px -15px 15px -7px rgba(254, 250, 250, 0.62);
+    -moz-box-shadow: -10px -15px 15px -7px rgba(226, 208, 208, 0.62);
+    box-shadow: -10px -15px 15px -7px rgba(195, 186, 186, 0.62);
+    cursor: pointer;
+    
+
+}
+.darkmode nav{
+    background-color: #181518;
+}
+.darkmode .infoPrincipal{
+    background-color: #5c405c;
+}
+
 .darkmode .info{
     color: white;
     background-color: black;
