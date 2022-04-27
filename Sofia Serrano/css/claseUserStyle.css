@@ -1,0 +1,47 @@
+.contenedorMaterial {
+    display: flex;
+}
+
+.check {
+    color: green;
+}
+
+ul li,
+summary {
+    list-style: none;
+    color: #626162;
+}
+
+summary {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 41px;
+    color: #626162;
+}
+
+summary::before {
+    content: '+';
+    padding-right: 0.5rem;
+}
+
+.temas {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 29px;
+    color: #727172;
+
+}
+
+.temas .bolder {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 29px;
+    color: #727172;
+}
+
+
+details[open] summary::before {
+    content: '-';
+}
