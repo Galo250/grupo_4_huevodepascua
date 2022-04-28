@@ -1,4 +1,5 @@
-# Proyecto E-learning "DevJump" 
+https://github.com/Galo250/grupo_4_siwi/issues/1#issue-1218997065
+# Proyecto E-learning "SIWI"
 
 
 - **Devjumpers:** son los usuarios que buscan aprender las diferentes tecnologías ofrecidas, tendrán un perfil de usuario con videos, clases y sección de progreso y evaluaciones para reforzar los conocimientos.
