@@ -34,9 +34,15 @@ Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinar
 	* 
 ## Listado de 6 páginas que tomamos como referencia 
 - **Platzi** link : https://platzi.com/
+![pltazi](https://user-images.githubusercontent.com/98984365/165816643-25a55d70-2d3a-42c5-9d67-ba781108d646.png)
 - **udemy** link : https://www.udemy.com/
+![udemy](https://user-images.githubusercontent.com/98984365/165816863-8117e083-5dd2-4cae-b956-2de38f237acd.png)
 - **Ed team** link : https://ed.team/
+![edTeam](https://user-images.githubusercontent.com/98984365/165816463-5a1aaa6b-c80d-45d1-8136-26a73a077420.png)
 - **Codigo facilito** link : https://codigofacilito.com/ 
+![codigoFacilito](https://user-images.githubusercontent.com/98984365/165817586-574cf519-d1cd-4fa7-b626-e78940199927.png)
 - **Coursera** link : https://es.coursera.org/
+![coursera](https://user-images.githubusercontent.com/98984365/165817816-0199258a-c640-4214-844e-3e44fd9fda95.png)
 - **Tzuzulcode** link :  https://www.tzuzulcode.com
+![tzuzulcode](https://user-images.githubusercontent.com/98984365/165817908-00ca44a1-3056-45e1-90d2-ad0239cd250f.png)
 
