@@ -1,0 +1,170 @@
+/*Inicio diseños generales*/
+html {
+    font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    background-color: rgb(235, 233, 233);
+}
+
+body {
+    margin: 0%;
+}
+
+/*Fin diseños generales*/
+
+/* Comienzo del Header/Nav */
+
+nav {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #7223A5;
+}
+
+nav a:hover {
+    text-decoration: underline 3px;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 1.8em;
+    color: #7223A5;
+}
+
+.submit {
+    background-color: #7223A5;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #166bda;
+    transition: all 200ms;
+}
+
+/* Fin del Header/Nav */
+
+main{
+    width: 100%;
+}
+nav{
+    display: flex; /*pantalla ; flexible*/
+    flex-direction: row; /*coloca los elementos del nav en horizontal*/
+    justify-content: space-around;/* justifica contenido*/
+    width: 100%; /* ancho */
+    height: 70px;/* alto */
+    align-items: center; /* alinear elementos */
+    background-color: white;
+    margin: 0%; /* distancia del margen hacia afuera */
+    padding: 0%;  /* distancia del margen hacia adentro */
+}
+
+nav p{
+    font-size: 1.8em; /* tamaño de fuente */
+}
+
+nav a{
+    text-decoration: none; /* decoración de texto */
+    color: #7223A5; /* color de letra */
+    font-weight: 600;
+}
+
+nav input{
+    color: white;
+    width: 140px;
+    height: 40px;
+    background-color: #7223A5;
+    border: none; /* borde */
+    border-radius: 4px;
+    
+}
+
+nav input:hover{
+    background-color: #166bda;
+    transition: all 200ms; /* el tiempo que tarda en cambiar el boton de color */
+}
+
+main{
+padding: 0%;
+margin: 0%;
+display: flex;
+flex-direction: column;
+}
+
+main .E{
+display: flex;
+width: 100%;
+height: 20vh;
+justify-content: center;
+align-items: center;
+}
+
+.cont-cards{
+    display: flex; /* contenido flexible */
+    flex-direction: row; /* dirección horizontal de las "tarjetas"*/
+    flex-wrap: wrap;  
+    width: 100%;
+    height: 1000px;
+    align-content:flex-start;
+    justify-content: flex-start;
+    
+}
+
+.tarjeta{
+    height: 300px; 
+    width: 20%;
+    margin-left: 10%;
+    margin: 0;
+}
+
+.tarjeta h3, p{
+text-align: center;
+
+}
+
+.cont-card .tarjeta .imgTarjeta{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+
+img{
+    
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    left: 75px;
+
+}
+
+.cont-cards .tarjeta .bandera{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.celeste{
+    width: 50px;
+    height: 20px;
+    background-color: lightskyblue;
+}
+
+.blanco{
+    width: 50px;
+    height: 20px;
+    background-color: white;
+}

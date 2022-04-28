@@ -1,20 +1,85 @@
-# Proyecto E-learning "DevJump" 
+![Coding workshop](https://user-images.githubusercontent.com/98984365/165802254-00609892-6e81-47b9-adb6-5a83bcb46f7e.gif)
+# Proyecto E-learning "SIWI"
 
+## ¿Qué productos o servicios brindará nuestro sitio?.
+Nuestro sitio está enfocado en el aprendizaje y crecimiento del usuario en comunidad conformado por personas que también quieran aprender u ofrecer sus conocimientos. En este espacio, va a poder aprender de forma práctica e interactiva los distintos cursos de su selección. Las clases/especialidades serán: 
 
-- **Devjumpers:** son los usuarios que buscan aprender las diferentes tecnologías ofrecidas, tendrán un perfil de usuario con videos, clases y sección de progreso y evaluaciones para reforzar los conocimientos.
-- **Docentes:** Serán aquellos usuarios que tendrán la responsabilidad de educar a los *devjumpers*. Para tal fin, en sus perfiles de usuarios estarán habilitadas las secciones de clase, grabacion, subir archivos y actividades además de feedbacks y sección de contacto para los demás perfiles usuarios.
-- **Soporte:** Serán usuarios responsables de habilitar y deshabilitar usuarios como también del buen funcionamiento de la web. Tendrá habilitado la sección de contacto para recibir cualquier problema que se les presente a los distintos usuarios.
+- **Front-End**
+- **Back-end**
+- **Data science**
+- **Diseño UX/UI**
+- **Testing & QA**
+- **Machine learning** 
 
-## Integrantes del equipo.
+Nuestro objetivo es brindarles conocimientos y herramientas, como también, poder introducirlos a la industria IT.  
 
-**Galo Rodriguez** 
+## ¿Quiénes somos?
+Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinarios comprometidos con la tecnología, que quieren transmitir su conocimiento con futuros desarrolladores.
+### Integrantes del equipo.
++ **Rodriguez, Ezequiel**:adult:
+	* **Edad:** 20
+	* * **Rol:** 
++ **Rodriguez, Galo**:adult:
+	* **edad:** 20
+	* * **Rol:** 
++ **Sebastián, Ávila**:adult:
+	* **edad:** 19
+	* **Rol:** 
++ **Gonzalez, Thomas**:adult:
+	* **edad:** 26
+	* **Rol:** 
++ **Serrano, Sofía**:woman:
+	* **edad:** 21
+	* **Rol:** 
+	* 
+## Listado de 6 páginas que tomamos como referencia 
+- **Platzi** link : https://platzi.com/
 
-**Ezequiel Rodriguez**
+![pltazi](https://user-images.githubusercontent.com/98984365/165816643-25a55d70-2d3a-42c5-9d67-ba781108d646.png)
 
-**Sebastián Ávila**
+- **udemy** link : https://www.udemy.com/
 
-**Thomas Gonzalez**
+![udemy](https://user-images.githubusercontent.com/98984365/165816863-8117e083-5dd2-4cae-b956-2de38f237acd.png)
 
-**Sofía Serrano**
+- **Ed team** link : https://ed.team/
 
-Somos un equipo multidisciplinario enfocado en crear experiencias educativas únicas para nuestros devjumpers, con el fin de poder reforzar sus conocimientos y seguir con su proceso de aprendizaje.
+![edTeam](https://user-images.githubusercontent.com/98984365/165816463-5a1aaa6b-c80d-45d1-8136-26a73a077420.png)
+
+- **Codigo facilito** link : https://codigofacilito.com/ 
+
+![codigoFacilito](https://user-images.githubusercontent.com/98984365/165817586-574cf519-d1cd-4fa7-b626-e78940199927.png)
+
+- **Coursera** link : https://es.coursera.org/
+
+![coursera](https://user-images.githubusercontent.com/98984365/165817816-0199258a-c640-4214-844e-3e44fd9fda95.png)
+
+- **Tzuzulcode** link :  https://www.tzuzulcode.com
+
+![tzuzulcode](https://user-images.githubusercontent.com/98984365/165817908-00ca44a1-3056-45e1-90d2-ad0239cd250f.png)
+
+## Diseño
+### Wireframe
+Link de Figma en dónde hicimos el diseño: https://www.figma.com/file/nkloGcjKNsMKanAMveR1No/Siwi-maquetaci%C3%B3n-presentaci%C3%B3n?node-id=0%3A1
+
+### Logo
+
+![Logo](https://user-images.githubusercontent.com/98984365/165819555-9259f74a-12b7-43d9-ba56-5d3873f22c7a.png)
+
+### Páginas echas 
+- **Home**
+- **Especialización**
+- **Cursos**
+- **Vista de Usuario con sus cursos**
+- **Sobre nosotros**
+- **Formulario** 
+
+### Paleta de colores 
+![paletaDeColores](https://user-images.githubusercontent.com/98984365/165819162-1b1d0609-0e82-42c2-a802-a1790912ecc6.png)
+
+### Fuentes 
+- Roboto
+- google Sans
+- Robot Draft
+- Arial
+- Helvetica 
+- Sans Serif 
