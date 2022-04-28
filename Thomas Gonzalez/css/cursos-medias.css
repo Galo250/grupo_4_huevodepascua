@@ -1,0 +1,18 @@
+@media(min-width: 300px)and (max-width:700px){
+    html,main,.cartas, .container-cards,.info{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .container-cards{
+        display: flex;
+        flex-flow: column wrap;
+       /*  border: solid rgb(24, 20, 20) 3px; */
+        flex-basis: 100%;
+        border-radius: 20px;
+        margin-top: 20px;
+        background-color: #b826a8;
+        
+    }
+    
+}
