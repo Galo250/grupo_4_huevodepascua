@@ -73,7 +73,7 @@ Link de Figma en dónde hicimos el diseño: https://www.figma.com/file/nkloGcjKN
 - **Sobre nosotros**
 - **Formulario** 
 
-### Paletas de colores 
+### Paleta de colores 
 ![paletaDeColores](https://user-images.githubusercontent.com/98984365/165819162-1b1d0609-0e82-42c2-a802-a1790912ecc6.png)
 
 ### Fuentes 
