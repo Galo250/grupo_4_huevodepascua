@@ -15,13 +15,14 @@ Nuestro objetivo es brindarles conocimientos y herramientas, como también, pode
 Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinarios comprometidos con la tecnología, que quieren transmitir su conocimiento con futuros desarrolladores.
 ### Integrantes del equipo.
 
-- **Galo Rodriguez** 
-	:adult:
-- **Ezequiel Rodriguez**
-	:adult:
-- **Sebastián Ávila**
-	:adult:
-- **Thomas Gonzalez**
-	:adult:
-- **Sofía Serrano**
-:woman:
++ **Galo Rodriguez** 
+	* :adult:
+	
++ **Ezequiel Rodriguez**
+	* :adult:
++ **Sebastián Ávila**
+	* :adult:
++ **Thomas Gonzalez**
+	* :adult:
++ **Sofía Serrano**
+	* :woman:
