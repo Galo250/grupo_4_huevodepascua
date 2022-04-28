@@ -3,12 +3,14 @@
 
 ## ¿Qué productos o servicios brindará nuestro sitio?.
 Nuestro sitio está enfocado en el aprendizaje y crecimiento del usuario en comunidad conformado por personas que también quieran aprender u ofrecer sus conocimientos. En este espacio, va a poder aprender de forma práctica e interactiva los distintos cursos de su selección. Las clases/especialidades serán: 
+
 - **Front-End**
 - **Back-end**
 - **Data science**
 - **Diseño UX/UI**
 - **Testing & QA**
 - **Machine learning** 
+
 Nuestro objetivo es brindarles conocimientos y herramientas, como también, poder introducirlos a la industria IT.  
 
 ## ¿Quiénes somos?
