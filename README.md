@@ -57,4 +57,24 @@ Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinar
 
 ![tzuzulcode](https://user-images.githubusercontent.com/98984365/165817908-00ca44a1-3056-45e1-90d2-ad0239cd250f.png)
 
+## Diseño
+### Wireframe
+Link de Figma en dónde hicimos el diseño: https://www.figma.com/file/nkloGcjKNsMKanAMveR1No/Siwi-maquetaci%C3%B3n-presentaci%C3%B3n?node-id=0%3A1
+### Páginas echas 
+- **Home**
+- **Especialización**
+- **Cursos**
+- **Vista de Usuario con sus cursos**
+- **Sobre nosotros**
+- **Formulario** 
 
+### Paletas de colores 
+![paletaDeColores](https://user-images.githubusercontent.com/98984365/165819162-1b1d0609-0e82-42c2-a802-a1790912ecc6.png)
+
+###Fuentes 
+- Roboto
+- google Sans
+- Robot Draft
+- Arial
+- Helvetica 
+- Sans Serif 
