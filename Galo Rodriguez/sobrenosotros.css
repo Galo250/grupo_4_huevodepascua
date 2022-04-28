@@ -1,14 +1,59 @@
-html{
-    font-family: Google sans, Roboto, RobotoDraft,Arial, Helvetica, sans-serif;
-/* familia tipografica */
-background-color: #89868a;
+/*Inicio diseños generales*/
+html {
+    font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    background-color: rgb(235, 233, 233);
 }
 
-*{
-    box-sizing: border-box;
+body {
+    margin: 0%;
 }
 
-body{margin: 0px;}
+/*Fin diseños generales*/
+
+/* Comienzo del Header/Nav */
+
+nav {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #7223A5;
+}
+
+nav a:hover {
+    text-decoration: underline 3px;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 1.8em;
+    color: #7223A5;
+}
+
+.submit {
+    background-color: #7223A5;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #166bda;
+    transition: all 200ms;
+}
+
+/* Fin del Header/Nav */
 
 main{
     width: 100%;
