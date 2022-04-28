@@ -1,4 +1,4 @@
-https://github.com/Galo250/grupo_4_siwi/issues/1#issue-1218997065
+![Coding workshop](https://user-images.githubusercontent.com/98984365/165802254-00609892-6e81-47b9-adb6-5a83bcb46f7e.gif)
 # Proyecto E-learning "SIWI"
 
 
