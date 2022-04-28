@@ -33,9 +33,10 @@ Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinar
 	* **Rol:** 
 	* 
 ## Listado de 6 páginas que tomamos como referencia 
-- **Platzi**
-- **udemy**
-- **Ed team**
-- **Codigo facilito**
-- **Coursera**
-- **Tzuzulcode** 
+- **Platzi** link : https://platzi.com/
+- **udemy** link : https://www.udemy.com/
+- **Ed team** link : https://ed.team/
+- **Codigo facilito** link : https://codigofacilito.com/ 
+- **Coursera** link : https://es.coursera.org/
+- **Tzuzulcode** link :  https://www.tzuzulcode.com
+
