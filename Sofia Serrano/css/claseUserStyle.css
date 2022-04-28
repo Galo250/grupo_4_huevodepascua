@@ -1,9 +1,46 @@
+/* Inicio diseños generales*/
+html {
+    font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    background-color: rgb(235, 233, 233);
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    margin: 0%;
+}
+
+/* Fin inicio */
+main {
+    margin-top: 30px;
+}
+
 .contenedorMaterial {
     display: flex;
 }
 
 .check {
     color: green;
+}
+
+.ruta {
+    margin-top: 25px;
+    margin-left: 8%;
+}
+
+.ruta span {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.temasClases {
+    margin-left: 40px;
 }
 
 ul li,
@@ -26,6 +63,7 @@ summary::before {
 }
 
 .temas {
+
     font-style: normal;
     font-weight: 200;
     font-size: 14px;
@@ -45,7 +83,61 @@ summary::before {
 details[open] summary::before {
     content: '-';
 }
-.ruta{
-    margin-left: 8%;
+
+
+/* Parte de vista videos */
+
+.vistaDescripcion {
+    height: 670px;
+    width: 940px;
+    overflow-y: auto;
+    margin-bottom: 23px;
 }
 
+.transcrip {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #3d3d3d;
+}
+
+.vistaDescripcion .titulo {
+    margin: auto;
+    margin-top: 4px;
+    margin-bottom: 29px;
+    color:  #3d3d3d;
+}
+
+.transcripcion p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 30px;
+    color: #3b3b3b;
+    margin-right: 20px;
+}
+
+.vistaDescripcion article {
+    display: flex;
+}
+
+.vistaDescripcion .video {
+    justify-content: center;
+}
+
+/* Barra de movimiento */
+.vistaDescripcion::-webkit-scrollbar {
+    width: 12px;
+}
+
+.vistaDescripcion::-webkit-scrollbar-track {
+    background-color: #d1cdcd;
+    border-radius: 10px;
+}
+
+.vistaDescripcion::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #a7a1a1;
+}
+
+/* mediaqueri  con tablet y celular*/
