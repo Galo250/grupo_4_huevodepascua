@@ -17,19 +17,19 @@ Nuestro objetivo es brindarles conocimientos y herramientas, como también, pode
 Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinarios comprometidos con la tecnología, que quieren transmitir su conocimiento con futuros desarrolladores.
 ### Integrantes del equipo.
 + **Rodriguez, Ezequiel**:adult:
-	* **Edad:** 21
+	* **Edad:** 20
 	* * **Rol:** 
 + **Rodriguez, Galo**:adult:
-	* **edad:** 19
+	* **edad:** 20
 	* * **Rol:** 
 + **Sebastián, Ávila**:adult:
-	* **edad:** 26
+	* **edad:** 19
 	* **Rol:** 
 + **Gonzalez, Thomas**:adult:
-	* **edad:** 20
+	* **edad:** 26
 	* **Rol:** 
 + **Serrano, Sofía**:woman:
-	* **edad:** 20
+	* **edad:** 21
 	* **Rol:** 
 	* 
 ## Listado de 6 páginas que tomamos como referencia 
