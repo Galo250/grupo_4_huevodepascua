@@ -16,11 +16,12 @@ Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinar
 ### Integrantes del equipo.
 
 **Galo Rodriguez** 
-
+	:adult:
 **Ezequiel Rodriguez**
-
+	:adult:
 **Sebastián Ávila**
-
+	:adult:
 **Thomas Gonzalez**
-
+	:adult:
 **Sofía Serrano**
+:woman:
