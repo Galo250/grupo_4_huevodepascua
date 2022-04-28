@@ -31,3 +31,11 @@ Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinar
 + **Serrano, Sofía**:woman:
 	* **edad:** 20
 	* **Rol:** 
+	* 
+## Listado de 6 páginas que tomamos como referencia 
+- **Platzi**
+- **udemy**
+- **Ed team**
+- **Codigo facilito**
+- **Coursera**
+- **Tzuzulcode** 
