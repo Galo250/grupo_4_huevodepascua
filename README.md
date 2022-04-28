@@ -1,12 +1,19 @@
 ![Coding workshop](https://user-images.githubusercontent.com/98984365/165802254-00609892-6e81-47b9-adb6-5a83bcb46f7e.gif)
 # Proyecto E-learning "SIWI"
 
+## ¿Qué productos o servicios brindará nuestro sitio?.
+Nuestro sitio está enfocado en el aprendizaje y crecimiento del usuario en comunidad conformado por personas que también quieran aprender u ofrecer sus conocimientos. En este espacio, va a poder aprender de forma práctica e interactiva los distintos cursos de su selección. Las clases/especialidades serán: 
+-**Front-End**
+-**Back-end**
+-**Data science**
+-**Diseño UX/UI**
+-**Testing & QA**
+-**Machine learning** 
+Nuestro objetivo es brindarles conocimientos y herramientas, como también, poder introducirlos a la industria IT.  
 
-- **Devjumpers:** son los usuarios que buscan aprender las diferentes tecnologías ofrecidas, tendrán un perfil de usuario con videos, clases y sección de progreso y evaluaciones para reforzar los conocimientos.
-- **Docentes:** Serán aquellos usuarios que tendrán la responsabilidad de educar a los *devjumpers*. Para tal fin, en sus perfiles de usuarios estarán habilitadas las secciones de clase, grabacion, subir archivos y actividades además de feedbacks y sección de contacto para los demás perfiles usuarios.
-- **Soporte:** Serán usuarios responsables de habilitar y deshabilitar usuarios como también del buen funcionamiento de la web. Tendrá habilitado la sección de contacto para recibir cualquier problema que se les presente a los distintos usuarios.
-
-## Integrantes del equipo.
+## ¿Quiénes somos?
+Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinarios comprometidos con la tecnología, que quieren transmitir su conocimiento con futuros desarrolladores.
+### Integrantes del equipo.
 
 **Galo Rodriguez** 
 
@@ -17,5 +24,3 @@
 **Thomas Gonzalez**
 
 **Sofía Serrano**
-
-Somos un equipo multidisciplinario enfocado en crear experiencias educativas únicas para nuestros devjumpers, con el fin de poder reforzar sus conocimientos y seguir con su proceso de aprendizaje.
