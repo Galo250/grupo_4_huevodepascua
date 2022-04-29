@@ -149,14 +149,15 @@ body,html, main{
     background-color: rgb(235, 233, 233);    
 }
 .card .boton-comenzar{
-    background-color: #7223A5;
+    background-color: #858088;
     display: flex;
     width: 150px;
-    height: 40px;
+    height: 50px;
     align-self: center;
-    justify-content: center;
-    border-radius: 30px;
-    margin-bottom: 15px;      
+    justify-content: center;    
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: none;          
 }
 .boton-comenzar:hover{
     width: 170px;
@@ -165,6 +166,7 @@ body,html, main{
 .boton-comenzar a{
     font-size: 15px;
     margin-top: 2px;
+    text-align: center;
 }
 
 section .infoPrincipal .tittle h1{
