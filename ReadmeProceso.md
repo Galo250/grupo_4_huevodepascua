@@ -123,7 +123,7 @@ La tipografía principal para la página es Roboto y las que usamos para otros s
 - Helvetica
 - Sans Serif
 
-####Diseño de páginas y secciones
+#### Diseño de páginas y secciones
 Todas las páginas cuentan con el mismo diseño de menu (por el que el usuario va a poder desplazarse por las demás páginas) y de footer
 
 **Menu**
@@ -161,7 +161,7 @@ Mobile:
 
 ##### Especializaciones
 
-**Desktop **
+**Desktop**
 
 ![image](https://user-images.githubusercontent.com/98984365/165923035-dbf5b43d-14e6-4b62-a964-6ee9659efc3d.png)
 
@@ -179,7 +179,7 @@ Mobile:
 
 ![image](https://user-images.githubusercontent.com/98984365/165923956-c4bdbd2a-323e-4d80-ae80-07414674be41.png)
 
-#####Vista de Usuario con sus cursos
+##### Vista de Usuario con sus cursos
 
 **Desktop **
 
@@ -192,7 +192,7 @@ Mobile:
 
 ##### Sobre nosotros
 
-**Desktop **
+**Desktop**
 
 ![image](https://user-images.githubusercontent.com/98984365/165925976-b1ea8dc2-447e-413a-a5c1-315be83ff675.png)
 
@@ -202,7 +202,7 @@ La página no cambia, exepto por el menu que va a cambiar cuando sea responsive 
 
 ##### Formulario
 
-**Desktop **
+**Desktop**
 
 ![image](https://user-images.githubusercontent.com/98984365/165924188-3210519e-ad22-4b7a-9aad-20ba33dc70c2.png)
 
