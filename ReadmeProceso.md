@@ -184,3 +184,5 @@ La página no cambia , exepto por el menu que va a cambiar cuando sea responsive
 En cuanto a la elección del logo, estabamos entre dos opciones. 
 Lo sometimos a votación entre todos los integrantes del grupo y tuvo más votos la opción 1 para que sea el logo de SIWI
 
+
+
