@@ -65,7 +65,7 @@ Link de Figma en dónde hicimos el diseño: https://www.figma.com/file/nkloGcjKN
 
 ![Logo](https://user-images.githubusercontent.com/98984365/165819555-9259f74a-12b7-43d9-ba56-5d3873f22c7a.png)
 
-### Páginas echas 
+### Páginas hechas 
 - **Home**
 - **Especialización**
 - **Cursos**
