@@ -108,8 +108,11 @@ Terminamos de definir el diseño , la paleta de colores de cada página y las il
 Todas la ilustraciones gratuitas fueron de la siguiente página:[Link](https://storyset.com/illustration/on-the-office/amico)
 
 #### Paleta de Cromática y tipografía
+
 Para la elección de la paleta cromática nos basamos en los colores principales de la página de arbusta que son el violeta, el azul y el rosa. A partir de estos colores definimos la nuestra y fue la siguiente. 
+
 ![paletaDeColores](https://user-images.githubusercontent.com/98984365/165819162-1b1d0609-0e82-42c2-a802-a1790912ecc6.png)
+
 Para seleccionar una paleta de colores Cromática basados en los colores principales de arbusta, usamos la siguiente página https://color.adobe.com/es/create que brinda una rueda de colores aplicando regla de armonía de colores análogos. 
 
 La tipografía principal para la página es Roboto y las que usamos para otros sectores de las páginas son: 
@@ -124,57 +127,88 @@ La tipografía principal para la página es Roboto y las que usamos para otros s
 Todas las páginas cuentan con el mismo diseño de menu (por el que el usuario va a poder desplazarse por las demás páginas) y de footer
 
 **Menu**
+
 El menu está compuesta por los link con las páginas que vamos a desarrollar para el proyecto 
 Desktop: 
+
 ![image](https://user-images.githubusercontent.com/98984365/165930277-e333d37c-664d-445f-9ae5-2873801a61f7.png)
+
 Mobile:
+
 ![image](https://user-images.githubusercontent.com/98984365/165930680-2d023aa7-5138-4f58-8e2c-e9c1e0555790.png)
 
 **Footer**
+
 Desktop: 
+
 ![image](https://user-images.githubusercontent.com/98984365/165934024-33c99a65-82fc-462d-9b2a-8a01fd211433.png)
 
 Mobile:
+
 ![image](https://user-images.githubusercontent.com/98984365/165934319-5ec5dd3e-f99a-4f73-88d7-351d65f1c2f0.png)
 
 
 
 ##### **Home**
 **Desktop **
+
 ![image](https://user-images.githubusercontent.com/98984365/165914909-034285f4-9348-47c8-b551-0acf70868c87.png)
+
 **Mobile**
+
 ![image](https://user-images.githubusercontent.com/98984365/165915583-1f70ef25-b0ad-4a06-80d6-32bbf9807373.png)
 
 
-#####Especializaciones
+##### Especializaciones
+
 **Desktop **
+
 ![image](https://user-images.githubusercontent.com/98984365/165923035-dbf5b43d-14e6-4b62-a964-6ee9659efc3d.png)
+
 **Mobile**
+
 ![image](https://user-images.githubusercontent.com/98984365/165923700-579f96ba-2048-499d-9f3e-81805fb044bd.png)
 
-#####Cursos
+##### Cursos
+
 **Desktop **
+
 ![image](https://user-images.githubusercontent.com/98984365/165923283-a7f36781-a728-4784-aa7e-64f4ccff9e8e.png)
+
 **Mobile**
+
 ![image](https://user-images.githubusercontent.com/98984365/165923956-c4bdbd2a-323e-4d80-ae80-07414674be41.png)
 
 #####Vista de Usuario con sus cursos
+
 **Desktop **
+
 ![image](https://user-images.githubusercontent.com/98984365/165925732-30a160f8-2417-4cda-8a54-28e6bdbfc62a.png)
 
+
 **Mobile**
+
 ![image](https://user-images.githubusercontent.com/98984365/165925309-fc2bd97c-aa63-4ac3-9fee-173a6eebb386.png)
 
-#####Sobre nosotros
+##### Sobre nosotros
+
 **Desktop **
+
 ![image](https://user-images.githubusercontent.com/98984365/165925976-b1ea8dc2-447e-413a-a5c1-315be83ff675.png)
-**Mobile**
-La página no cambia, exepto por el menu que va a cambiar cuando sea responsive como en las páginas anteriores. 
-#####Formulario
-**Desktop **
-![image](https://user-images.githubusercontent.com/98984365/165924188-3210519e-ad22-4b7a-9aad-20ba33dc70c2.png)
 
 **Mobile**
+
+La página no cambia, exepto por el menu que va a cambiar cuando sea responsive como en las páginas anteriores. 
+
+##### Formulario
+
+**Desktop **
+
+![image](https://user-images.githubusercontent.com/98984365/165924188-3210519e-ad22-4b7a-9aad-20ba33dc70c2.png)
+
+
+**Mobile**
+
 La página no cambia , exepto por el menu que va a cambiar cuando sea responsive como en las páginas anteriores. 
 
 ## Logo
