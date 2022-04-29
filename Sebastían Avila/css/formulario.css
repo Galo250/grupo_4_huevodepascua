@@ -86,18 +86,6 @@ main {
   vertical-align: baseline;
 }
 
-
-img {
-  max-width: 100%;
-  width: 100%;
-  display: block;
-  object-fit: cover;
-  object-position: center center;
-  margin-right: ;
-}
-
-
-
 li {
   list-style-type: none;
 }
@@ -146,7 +134,7 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 
   margin-top: 60px;
   font-size: 2em;
@@ -160,16 +148,46 @@ li {
   color: rgb(186, 186, 186);
 }
 
-.logeo {
-  margin-top: 50px;
-  width: 50%;
-  height: 50px;
-  border: solid 1px black;
-  font-size: 1.5em;
+.cont-input{
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+  border-radius: 20px;
+  width: 70%;
+  height: 40px;
+  margin: 5px;
+  background-color: #FCE9FFD9;
+  margin: 40px;
+}
+
+.fa-solid {
+  margin-left: 15px;
+  color: #9c54cd;
 
 }
 
+.logeo {
+  border-radius: 20px;
+  padding-left: 20px;
+  width: 90%;
+  height: 40px;
+  outline: none;
+  font-size: 1.3em;
+  background-color: #FCE9FFD9;
 
+}
+
+.iniciar{
+  
+  background-color: #7223A5;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 140px;
+  height: 40px;
+  color: #fff;
+  cursor: pointer;
+}
 
 
 .registrate {
