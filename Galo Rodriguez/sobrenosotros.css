@@ -55,6 +55,27 @@ nav a:hover {
 
 /* Fin del Header/Nav */
 
+.doble-imagen{
+    background-image: url(./IMG/laptop\ generica.jpg);
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-siwi{
+margin-right: 150px;
+/*     margin-left: 85%;
+    align-self: flex-end; */
+    height: 210px;
+    width: 210px;
+}
+
+
+
 main{
     width: 100%;
 }
@@ -149,4 +170,16 @@ img{
 
 }
 
-
+.tu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.tu-imagen{
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-right:10%;
+}
