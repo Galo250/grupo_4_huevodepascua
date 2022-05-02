@@ -14,7 +14,7 @@ Detalles del proceso de la página siwi
 	- **Proceso de desarrollo** 
 	- **Complicaciones** 
  
-+ **Caracteristicas a futuro  **
++ **Caracteristicas a futuro**
 
 ## Metodología de trabajo
 
