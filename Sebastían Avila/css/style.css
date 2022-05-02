@@ -12,7 +12,7 @@ body {
 
 /* Comienzo del Header/Nav */
 
-nav {
+/* nav {
     background-color: #fff;
     display: flex;
     flex-direction: row;
@@ -51,7 +51,7 @@ nav a:hover {
 .submit:hover {
     background-color: #166bda;
     transition: all 200ms;
-}
+} */
 
 /* Fin del Header/Nav */
 
@@ -108,7 +108,7 @@ h1 {
 
 .interes {
     height: 500px;
-    width: 500px;
+    /* width: 500px; */
 
 }
 
@@ -393,7 +393,9 @@ svg{
         text-align: center;
     }
 
-
+.presentacion{
+    width: 100%;
+}
     
     .presentacion .pres1{
         font-size: 1.5em;
@@ -401,8 +403,8 @@ svg{
 
     .presentacion .pres2{
         font-size: 1em;
-        width: 250px;
-        margin-left: 50px;
+        /* width: 250px;
+        margin-left: 50px; */
     }
 
     svg{
@@ -435,4 +437,122 @@ svg{
      hr{
          display: none;
      }
+}
+
+
+@media (max-width: 1100px){
+
+    
+body{
+    margin: 0%;
+}
+/* Inicio de header responsive */
+
+    nav a{
+        display: none;
+    }
+
+/* fin de header responsive */
+
+/* Inicio de body responsive */
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .presentacion .pres1{
+        font-size: 2.3em;
+    }
+
+    .presentacion .pres2{
+        font-size: 1.5em;
+    }
+
+    svg{
+        margin-top: 20px;
+        height: 500px;
+        width: 500px;
+
+    }
+
+    h1{
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    .cont-interes{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 0px;
+     padding: 0px;
+    }
+
+    h3{
+       text-align: center;
+       
+    }
+
+
+
+    h4{
+        font-size: 2em;
+    }
+
+    .cont-end p{
+        font-size: 1.3em;
+    }
+
+    /* fin de body responsive */
+}
+
+
+
+/* Medida 800 o menos */
+
+@media (max-width: 800px){
+
+
+
+
+    main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .presentacion {
+        width: 100%;
+    }
+    
+    .presentacion .pres1{
+        font-size: 1.5em;
+    }
+
+    .presentacion .pres2{
+        font-size: 1em;
+        /* width: 250px;
+        margin-left: 50px; */
+    }
+
+    svg{
+    height: 300px;
+    width: 300px;}
+
+
+    .cont-interes{
+        display: flex;
+        flex-direction: column;
+      
+       }
+   
+       
+
 }
