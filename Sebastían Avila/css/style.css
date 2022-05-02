@@ -291,6 +291,13 @@ hr{
 }
 
 
+.logo{
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
 /* Fin del Footer */
 
 /* Inicio del Responsive */
@@ -376,7 +383,9 @@ body{
 @media (max-width: 800px){
 
 
-
+svg{
+    margin: 0px;
+}
 
     main{
         display: flex;
@@ -409,4 +418,21 @@ body{
    
        
 
+     footer{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 300px;
+         background-color: #282727;
+         height: 600px;
+     }  
+
+     .foot{
+          margin-top: 30px;
+     }
+
+     hr{
+         display: none;
+     }
 }
