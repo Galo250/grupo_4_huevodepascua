@@ -104,7 +104,7 @@ También definimos que páginas vamos a tener para nuestro proyecto que son las 
 también subimos al github sus respectivos archivos el documento html sobre el que ibamos a trabajar para cada página. 
 
 ####  -**Jueves  21/04:**
-Terminamos de definir el diseño , la paleta de colores de cada página y las ilustraciones a usar  
+Terminamos de definir el diseño , la paleta de colores de cada página y las ilustraciones a usar. 
 Todas la ilustraciones gratuitas fueron de la siguiente página:[Link](https://storyset.com/illustration/on-the-office/amico)
 
 #### Paleta de Cromática y tipografía
@@ -219,4 +219,12 @@ En cuanto a la elección del logo, estabamos entre dos opciones.
 Lo sometimos a votación entre todos los integrantes del grupo y tuvo más votos la opción 1 para que sea el logo de SIWI
 
 
+## Desarrollo 
 
+**VIernes 22/04**: Nos divimos las tareas, para prepararnos e investigar lo que se necesitaba para empezar el lunes 25/04. La división de tareas quedó de la siguiente manera. 
+- Rodriguez, Ezequiel: Encargado de plasmar el diseño de la página "Especializaciones" en desktop y mobile, y de desarrollar el menu responsive.  
+- Rodriguez, Galo: Encargado de plasmar el diseño de la página "Sobre nosotro"  en desktop y mobile. 
+- Sebastián, Ávila: Encargado de plasmar el diseño de la página "Home" con el footer y de la página acceder en desktop y mobile.
+- Gonzalez, Thomas: Encargado de plasmar el diseño de la página de "Cursos"  en desktop y mobile.
+- Serrano, Sofía: Encargado de plasmar el diseño de la página "vista de cursos usuarios" en desktop y mobile, y de redactar la documentación.
+ 
