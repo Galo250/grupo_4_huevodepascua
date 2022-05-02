@@ -62,21 +62,9 @@ main {
 
 }
 
-
-
 :root {
-  --negro: #393939;
-  --blanco: #ececec;
-  --sombra-ppal: #c9c9c9;
-  --sombra-sec: #ffffff;
-  --borde-negro: #00000050;
-  --marcado: rgb(190, 19, 241);
-  /* Tipografía */
-  --tipo-principal: Helvetica, Arial, sans-serif;
+  --negro: #5214d7;
 }
-
-
-
 
 * {
   margin: 0;
@@ -90,15 +78,10 @@ li {
   list-style-type: none;
 }
 
-
-
-
 ::selection {
   background-color: var(--negro);
   color: var(--blanco);
 }
-
-
 
 .carrousel {
   margin-top: 20px;
@@ -107,6 +90,8 @@ li {
   box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
   overflow: hidden;
 }
+
+/* Inicio de Formulario */
 
 .cont-login {
   margin-top: 20px;
@@ -148,7 +133,7 @@ li {
   color: rgb(186, 186, 186);
 }
 
-.cont-input{
+.cont-input-login{
   -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
@@ -178,7 +163,6 @@ box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
 }
 
 .iniciar{
-  
   background-color: #7223A5;
   border: none;
   border-radius: 5px;
@@ -187,6 +171,10 @@ box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
   height: 40px;
   color: #fff;
   cursor: pointer;
+}
+
+.iniciar:hover{
+  background-color: #3d1459;
 }
 
 
@@ -200,6 +188,28 @@ box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
   -webkit-box-shadow: 7px 4px 28px 8px rgba(84, 84, 84, 1);
   -moz-box-shadow: 7px 4px 28px 8px rgba(84, 84, 84, 1);
   box-shadow: 7px 4px 28px 8px rgba(84, 84, 84, 1);
+}
+
+.cont-input-register{
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    width: 70%;
+    height: 40px;
+    margin: 5px;
+    background-color: #FCE9FFD9;
+    margin: 20px;
+}
+
+.register{
+  border-radius: 20px;
+  padding-left: 20px;
+  width: 90%;
+  height: 40px;
+  outline: none;
+  font-size: 1.3em;
+  background-color: #FCE9FFD9;
 }
 
 
@@ -224,27 +234,17 @@ h2 {
   width: 200%;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: flex-start;
   color: var(--negro);
   transition: all 0.4s ease;
   border-radius: 1em;
   background-color: var(--blanco);
-  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
   padding: 0px;
   transition: all 0.5s ease;
   transform: translateX(0%);
 }
 
-.carrousel .img {
-  width: calc(100% / 2 - 2em);
-  min-height: 10vh;
-  color: var(--negro);
-  transition: all 0.4s ease;
-  border-radius: 1em;
-  background-color: var(--blanco);
-  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
-}
 
 .carrousel .puntos {
   width: 100%;
@@ -254,23 +254,33 @@ h2 {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .carrousel .punto {
-  width: 2em;
+  display: flex;
+  flex-direction: row;
+justify-content: space-around;
+    align-items: center;
+  width: 150px;
   height: 2em;
   margin: 1em 1em 0;
-  color: var(--negro);
+  color: #fff;
   transition: all 0.4s ease;
   border-radius: 1em;
-  background-color: var(--blanco);
-  box-shadow: 0.6em 0.6em 1.2em var(--sombra-ppal), -0.6em -0.6em 1.2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  background-color: rgb(210, 95, 206);
+  -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
 }
+
 
 .carrousel .punto.activo {
-  background-color: rgb(222, 60, 222);
+  background-color: rgb(151, 4, 248);
 }
 
+
+/* Fin de Formulario */
 
 
 /* Comienzo del Footer */
