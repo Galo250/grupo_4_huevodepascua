@@ -35,15 +35,38 @@ nav{
 .menu{
     display: flex;
     align-items: center;
-    justify-content: center;
-}
+    justify-content: space-between;
+    padding-left: 0%;
+    flex-basis: 71%;
+} 
 
 .menu li{
     list-style: none;
-    margin: 0 15px;
+    /* margin: 0 15px; */
+    float: left;
     text-align: center;
+    flex-basis: 20%;
 }
 
+/* Inicio - Tamaños cajas de la lista HEADER */
+
+#inicio{
+    flex-basis: 39.08px;
+}
+#sobreNosotros{
+    flex-basis: 111.69px;
+}
+#especializaciones{
+    flex-basis: 128.21px;
+}
+#cursos{
+    flex-basis: 50.59px;
+}
+#acceder{
+    flex-basis: 140px;
+}
+
+/* Fin - Tamaño cajas de la lista HEADER */
 .menu .menu-i{
     text-decoration: none;
     color: #7223A5;    
@@ -61,12 +84,13 @@ nav{
 }
 
 .logo {
+    display: block;
     font-weight: bolder;
     font-size: 1.8em;
     color: #7223A5;
 }
 
-.submit {
+#submit {
     background-color: #7223A5;
     transition: all 0.5s ease-in-out;
     border: none;
@@ -78,7 +102,7 @@ nav{
     cursor: pointer;
 }
 
-.submit:hover {
+#submit:hover {
     background-color: #166bda;
     transition: all 0.5s ease-in-out;
 }
@@ -327,6 +351,7 @@ footer hr{
 .foot a{
     margin-right: 5px;
     color: #fff;
+    text-decoration: none;
 }
 
 .foot a:hover{
@@ -375,7 +400,7 @@ footer hr{
         transition: all 0.3s ease;
     }
 
-    .submit {
+    #submit {
         background-color: #166bda;
         transition: all 0.5s ease-in-out;
         border: none;
@@ -387,18 +412,19 @@ footer hr{
         cursor: pointer;
     }
     
-    .submit:hover {
+    #submit:hover {
         background-color: black;
         transition: all 0.5s ease-in-out;
     }
 
     /* TITULO PRINCIPAL */
 
-    h2{
-        position:sticky;
+    #h2-cursos{
+        position: relative;
+        height: 200px;
         top: 12vh;
-        
-    }
+    } 
+
 }
 
 /* Fin MEDIA QUERIES - header responsive */
