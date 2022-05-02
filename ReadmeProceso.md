@@ -220,11 +220,24 @@ Lo sometimos a votación entre todos los integrantes del grupo y tuvo más votos
 
 
 ## Desarrollo 
-
+### División de tareas
+**Miercoles 20/04**: Se unión un nuevo integrante al equipo, Thomas Gonzales. Ese día nos tomamos el tiempo para explicarle al compañero los avance echos hasta el momento y preguntarle su opinión acerca de los avances y sugerencias que quisiera aportar. 
+**Jueves 21/04**: 
 **VIernes 22/04**: Nos divimos las tareas, para prepararnos e investigar lo que se necesitaba para empezar el lunes 25/04. La división de tareas quedó de la siguiente manera. 
 - Rodriguez, Ezequiel: Encargado de plasmar el diseño de la página "Especializaciones" en desktop y mobile, y de desarrollar el menu responsive.  
 - Rodriguez, Galo: Encargado de plasmar el diseño de la página "Sobre nosotro"  en desktop y mobile. 
 - Sebastián, Ávila: Encargado de plasmar el diseño de la página "Home" con el footer y de la página acceder en desktop y mobile.
 - Gonzalez, Thomas: Encargado de plasmar el diseño de la página de "Cursos"  en desktop y mobile.
 - Serrano, Sofía: Encargado de plasmar el diseño de la página "vista de cursos usuarios" en desktop y mobile, y de redactar la documentación.
- 
+
+### Proceso de desarrollo
+**Lunes 25/04**:  Avanzamos con el desarollo de la página. Llegamos a maquetar lo que es la página de "cursos", "especializaciones" y registro. Se comenzo a darle estilo a la página de "Home" y "Formularios"  
+
+**Martes 26/04** Asistimos a la oficina y no ase vanzó mucho con el proyecto a razón de la evaluación, y estabamos enfocados en estudiar y repasar ese día. 
+
+**Miercoles 27/04**: Seguimos con el desarrollo de la página. Nos juntamos en equipo para ayudar a integrantes del equipo que tuvieron problemas con las páginas que estaban desarrollando. Uno de los problemas fue que la sección de formulario de la página acceder, no hacía la transición entre el formulario registro e inicio de sesión. Lo pudimos resolver arreglando la ruta en la que estaba el archvo de js ya que no estaba dentro de la carpeta correspondiente. El otro problema que tuvimos fue con la página especializaciones, la sección en la que se veían las cartas con la información que brindaba información acerca de las especializaciones disponibles.      
+
+**Jueves 28/04**: 
+
+**Viernes 29/04**:
+
