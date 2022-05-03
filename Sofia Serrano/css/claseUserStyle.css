@@ -19,6 +19,11 @@ body {
 /* Fin inicio */
 main {
     margin-top: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .contenedorMaterial {
@@ -30,6 +35,7 @@ main {
 }
 
 .ruta {
+    color: #3B1EBD;
     margin-top: 25px;
     margin-left: 8%;
 }
@@ -89,7 +95,7 @@ details[open] summary::before {
 
 .vistaDescripcion {
     height: 670px;
-    width: 940px;
+    width: 1000px;
     overflow-y: auto;
     margin-bottom: 23px;
 }
@@ -140,4 +146,32 @@ details[open] summary::before {
     background-color: #a7a1a1;
 }
 
+/* Menu del responsive */
+main .toggle_temasClases{
+    /* position: absolute;
+    z-index: 1; */
+    font-size: 22px;
+    padding: 16px;
+    cursor: pointer;
+    display: none;
+    color: #CF3DE7;
+    
+}
+
 /* mediaqueri  con tablet y celular*/
+@media screen and (max-width: 800px) {
+    main {
+        flex-direction: column;
+    }
+
+    main .toggle_temasClases{
+        display: block;   
+    }
+    main .temasClases{
+        display: none; 
+    }
+
+    main .temasClases--show{
+        display: block;
+    }
+}
