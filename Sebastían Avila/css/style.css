@@ -406,10 +406,7 @@ hr {
     body {
         margin: 0%;
     }
-
-    nav a {
-        display: none;
-    }
+}
 
 
 /* Fin de Body responsive */
