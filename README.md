@@ -21,7 +21,9 @@ Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinar
 	* * **Rol:** 
 + **Rodriguez, Galo**:adult:
 	* **edad:** 20
-	* * **Rol:** 
+	* : Rol como desarrollador - Armado de wireframe .
+	* Soy un nuevo ingresante en el mundo laboral de la tecnología, el cual me agrada mucho desde hace ya varios años. He tenido distintas experiencias en el desarrollo gracias a diversos cursos Full Stack. En este proyecto, pude implementar estos conocimientos antes mencionados y así poder aprender más. Me encargué de la página "Especializaciones" y también del Wireframe de manera cooperativa con mi equipo.
+ 
 + **Sebastián, Ávila**:adult:
 	* **edad:** 19
 	* **Rol:** 
