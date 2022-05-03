@@ -160,6 +160,7 @@ Mobile:
 
 
 ##### Especializaciones
+	- En esta página brindamos información de las diversas especializaciones que ofrecemos, mediante unas cards (tarjetas giratorias) con sus correspondientes descripciones e ilustraciones. Hay un botón con un link a un tema directamente relacionado,los cuales son, los cursos que seran explicados en la siguiente sección. 
 
 **Desktop**
 
