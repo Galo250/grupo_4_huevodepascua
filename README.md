@@ -29,7 +29,7 @@ Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinar
 	* **Rol:** 
 + **Gonzalez, Thomas**:adult:
 	* **edad:** 26
-	* **Rol:** 
+	* **Rol:** : Desempeñé el rol de desarrollador de la página cursos. Soy un dev trainee, que en este proyecto se encargó de darle estilo y aportar las ideas que me parecieron interesantes y que podian sumarle a nuestra página de e-learning. Mi intención es adquirir la experiencia y las buenas prácticas para desarrollarme como full stack funcional y productivo, manteniendo un buen ambiente de trabajo y con buena comunicación.
 + **Serrano, Sofía**:woman:
 	* **edad:** 21
 	* **Rol:** 
@@ -84,4 +84,5 @@ Link de Figma en dónde hicimos el diseño: https://www.figma.com/file/nkloGcjKN
 - Robot Draft
 - Arial
 - Helvetica 
-- Sans Serif 
+- Sans Serif
+- Montserrat

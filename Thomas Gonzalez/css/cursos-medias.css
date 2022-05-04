@@ -2,11 +2,7 @@
     html,main,.cartas, .container-cards,.info{
         padding: 0;
         margin: 0;
-    }
-    header nav .logoImg{
-        
-    }
-    
+    }    
     .container-cards{
         display: flex;
         flex-flow: column wrap;
@@ -38,6 +34,4 @@
         padding-top: 40px;
         
     }
-    
-    
 }

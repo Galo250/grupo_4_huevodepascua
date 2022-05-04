@@ -6,7 +6,7 @@
 }
 
 html{
-    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-family: 'Montserrat', sans-serif;/* Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; */
     background-color: rgb(235, 233, 233);
 }
 
@@ -62,70 +62,7 @@ nav a:hover {
 .submit:hover {
     background-color: #5c405c;  /* #166bda */
     cursor: pointer;
-    /* width: 180px;
-    height: 50px; */
 } 
-
-
-/* boton darkmode */
-
-.buttonNav{
-    display:flex;
-    position: relative; 
-    width: 5%;
-}
-
-.switch {
-    --secondary-container: #6f6971da;
-    --primary: #693889c8;
-    font-size: 12px;
-    display: flex;
-    width: 3.7em;
-    height: 1.8em;
-    position: relative;
-}
-
-.switch input {
-    display: none;
-    opacity: 0;
-    width: 0px;
-    height: 0px;
-}
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #673782;
-    transition: .2s;
-    border-radius: 30px;
-}
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 1.4em;
-    width: 1.4em;
-    border-radius: 20px;
-    left: 0.2em;
-    bottom: 0.2em;
-    background-color: #aeaaae;
-    transition: .5s;
-    }
-input:checked + .slider::before {
-    background-color: var(--primary);
-}
-input:checked + .slider {
-    background-color: var(--secondary-container);
-}
-input:focus + .slider {
-box-shadow: 0 0 1px var(--secondary-container);
-}
-input:checked + .slider:before {
-    transform: translateX(1.9em);
-}
-/* botton fin */
 
 
 /* FIN NAV / HEADER */
@@ -141,13 +78,7 @@ body,html, main{
     display: flex; 
     flex-direction: column;/* para darle a cada elemento lugar block */
 }
-.infoPrincipal {
-    display: block;
-    flex-flow: column wrap;
-    flex-basis: 100%;    
-    height: 50vh;
-    background-color: rgb(235, 233, 233);    
-}
+
 .card .boton-comenzar{
     background-color: #858088;
     display: flex;
@@ -163,33 +94,35 @@ body,html, main{
     width: 170px;
     font-size: 18px;
 }
-.boton-comenzar a{
+/* .boton-comenzar a{
     font-size: 15px;
-    margin-top: 2px;
     text-align: center;
+} */
+.infoPrincipal {
+    display: block;
+    flex-flow: column wrap;
+    flex-basis: 100%;   
+    height: 60vh;
+    margin: 20ox 15px;
+    background-color: rgb(235, 233, 233);  
+    text-align: center;  
 }
-
 section .infoPrincipal .tittle h1{
     font-size: 48px; 
     padding-top:20px;
+    padding-bottom: 10px;
     color:#CB39E2;
-    text-align: center; 
-    height: 50%;
-          
+    letter-spacing: 2px;           
 }
 section .infoPrincipal .subtittle{
-    text-align: center;
     color: #89868A;
-    font-size: 20px;
-    height: 20%;
-    
+    font-size: 26px;    
 }
 .info .infoPrincipal .textito{
     color: #89868A;
     font-size: 20px; 
     text-align: center;
-    padding-top: 0.5em;
-    height: 10%;   
+    padding-top: 1.5em;
 }
 
 /* CARTAS */
@@ -231,7 +164,13 @@ section .infoPrincipal .subtittle{
     border-radius: 25px;
     margin-top: 20px;
     background-color: #b826a8;
-    color: #FFECEC;    
+    color: #FFECEC;  
+    justify-content: center;
+    align-items: center;  
+}
+.card .input {
+    margin: 0px 15px;
+    background-color: white;
 }
 
 .container-cards .card:hover{
@@ -247,47 +186,54 @@ section.card h3 {
     text-align: center;
     font-size: 28px;
     font-weight: 700;
-    letter-spacing: 1.5px; 
+    letter-spacing: 1.6px; 
     font-family: 'roboto';
 }
 section.card h4 {
-    font-size:24px;
+    font-size:20px;
     letter-spacing: 1px;
 }
 .card p{
     margin: 20px;
 }
-.card a{
+/* .card a{
     text-decoration: none;
     color:rgb(201, 192, 192);
     font-size: 22px;
     letter-spacing: 2px;
     margin-bottom: 20px;
     
-}
-.card a:hover{
+} */
+/* .card a:hover{
     font-size: 24px;
     color:rgb(179, 168, 168);
     transition: .2s;
-}
+} */
 .card .image img {
     width: 80%;
     justify-self: center;
     border-radius: 20px;
     padding-bottom: 10px;
+    margin-top: 15px;
 }
 .image img{ /* Por si se agregan otras imagenes */
     width: 100%;
     border-radius: 20px;
 }
 
-.button{
-    display: block;
-    justify-content: flex-end;
-    align-content: center; 
-    position: relative;
-}
-
+.iniciar{
+    background-color: #7223A5;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .iniciar:hover{
+    background-color: #3d1459;
+  }
 
 /* Footer estilo */
 footer{
@@ -396,12 +342,16 @@ hr{
     letter-spacing: 1px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 } */
-.container-foot .hexagonArea .hexagon:hover{  /* Hover de los hexagonos */
+
+ /* Hover de los hexagonos */
+
+/* .container-foot .hexagonArea .hexagon:hover{ 
+    
     background-color: rgba(61, 48, 65, 0.873);
     transform:scale(1.2) ;
     color: white;
 }
-
+ */
 
 
 /* TEXTO FOOTER */
@@ -422,55 +372,4 @@ hr{
     width: 70%;
 }
  */
-/* DARK MODE */
-/* .darkmode {
-    background-color: rgb(6, 6, 6);
-}
-.darkmode .container-cards .card:hover{
-    transition: .3s;
-    -webkit-box-shadow: -10px -15px 15px -7px rgba(254, 250, 250, 0.62);
-    -moz-box-shadow: -10px -15px 15px -7px rgba(226, 208, 208, 0.62);
-    box-shadow: -10px -15px 15px -7px rgba(195, 186, 186, 0.62);
-    cursor: pointer;
-    
 
-}
-.darkmode nav{
-    background-color: #181518;
-}
-.darkmode .infoPrincipal{
-    background-color: #5c405c;
-}
-
-.darkmode .info{
-    color: white;
-    background-color: black;
-}
-.darkmode section {
-    background-color: rgb(8, 8, 7);
-    color: rgb(202, 186, 186);
-}
-.darkmode .card a{
-    text-decoration: none;
-    color: rgb(151, 140, 140);
-    font-size: 1.3em;
-    letter-spacing: 1px;
-    cursor: pointer;    
-}
-.darkmode .container-foot{
-    background-color:rgb(10, 6, 50);
-}
-.darkmode .container-foot .hexagonArea .hexagon{
-    background-color: #b0a7b3;
-    color: rgba(15, 36, 83, 0.781);
-} 
-.darkmode .card{
-    border: solid 2px white;
-}
-.darkmode .secciones-nav a {
-    color: rgb(172, 167, 167);
-}
-.darkmode nav .secciones-nav input {
-    color: rgb(172, 167, 167);
-}
- */
