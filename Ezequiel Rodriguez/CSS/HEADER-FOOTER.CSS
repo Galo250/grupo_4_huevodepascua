@@ -95,28 +95,29 @@ nav{
 
 @media (max-width:800px) {
     nav{
-        position: fixed;
+        z-index: 2;
     }
     .menu-btn{
         display: block;
         z-index: 1;     
     }
     .menu{
-        position: fixed;
+        position: absolute;
         z-index: 1;     
-        top: 9vh;
+        top: 9%;
+        
         background: #7223A5;
         width: 100%;
-        height: 100%;
+        height: 90%;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
         line-height: 80px;
         transition: all 600ms ease;
-        transform: translateX(-100%);
+        /* transform: translateX(-50%); */
     }
     .menu.active{
-        transform: translateY(0%);
+        transform: translateY(-120%);
 
     }
     .menu .menu-i{
