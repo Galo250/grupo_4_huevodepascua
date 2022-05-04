@@ -150,6 +150,7 @@ Mobile:
 
 
 ##### **Home**
+En esta página nos encargamos de brindar información sobre la misma y ecplicamos como funciona. Al final de la página hay un botón que invita al usuario a ser parte de nosotros.
 **Desktop **
 
 ![image](https://user-images.githubusercontent.com/98984365/165914909-034285f4-9348-47c8-b551-0acf70868c87.png)
@@ -160,7 +161,7 @@ Mobile:
 
 
 ##### Especializaciones
-	- En esta página brindamos información de las diversas especializaciones que ofrecemos, mediante unas cards (tarjetas giratorias) con sus correspondientes descripciones e ilustraciones. Hay un botón con un link a un tema directamente relacionado,los cuales son, los cursos que seran explicados en la siguiente sección. 
+	 En esta página brindamos información de las diversas especializaciones que ofrecemos, mediante unas cards (tarjetas giratorias) con sus correspondientes descripciones e ilustraciones. Hay un botón con un link a un tema directamente relacionado,los cuales son, los cursos que seran explicados en la siguiente sección. 
 
 **Desktop**
 
@@ -202,6 +203,7 @@ Mobile:
 La página no cambia, exepto por el menu que va a cambiar cuando sea responsive como en las páginas anteriores. 
 
 ##### Formulario
+Esta página contiene un formulario dinámico en el cual el usuario va a poder registrarse o iniciar sesión.
 
 **Desktop**
 
