@@ -151,7 +151,7 @@ main .toggle_temasClases{
     /* position: absolute;
     z-index: 1; */
     font-size: 22px;
-    padding: 16px;
+    padding: 0px 0px 21px 10px;
     cursor: pointer;
     display: none;
     color: #CF3DE7;
@@ -160,12 +160,20 @@ main .toggle_temasClases{
 
 /* mediaqueri  con tablet y celular*/
 @media screen and (max-width: 800px) {
+    /* Ruta */
+    .ruta {
+        color: #3B1EBD;
+        margin-top: 25px;
+        margin-left: 0;
+    }
+    /* Temas clases  */
     main {
         flex-direction: column;
     }
 
     main .toggle_temasClases{
-        display: block;   
+        display: block; 
+        margin-left: 0px;  
     }
     main .temasClases{
         display: none; 
@@ -174,4 +182,11 @@ main .toggle_temasClases{
     main .temasClases--show{
         display: block;
     }
+    /* Vista video  */
+    .vistaDescripcion {
+        height: 670px;
+        width: 100%;
+    }
+    .ma
+
 }
