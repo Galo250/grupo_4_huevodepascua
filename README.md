@@ -18,15 +18,17 @@ Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinar
 ### Integrantes del equipo.
 + **Rodriguez, Ezequiel**:adult:
 	* **Edad:** 20
-	* * **Rol:** 
+	* Rol: desarrollador - Armado de wireframe .
+	* Soy un nuevo ingresante en el mundo laboral de la tecnología, el cual me agrada mucho desde hace ya varios años. He tenido distintas experiencias en el desarrollo gracias a diversos cursos Full Stack. En este proyecto, pude implementar estos conocimientos antes mencionados y así poder aprender más. Me encargué de la página "Especializaciones" y también del Wireframe de manera cooperativa con mi equipo.
+
 + **Rodriguez, Galo**:adult:
 	* **edad:** 20
-	* : Rol como desarrollador - Armado de wireframe .
-	* Soy un nuevo ingresante en el mundo laboral de la tecnología, el cual me agrada mucho desde hace ya varios años. He tenido distintas experiencias en el desarrollo gracias a diversos cursos Full Stack. En este proyecto, pude implementar estos conocimientos antes mencionados y así poder aprender más. Me encargué de la página "Especializaciones" y también del Wireframe de manera cooperativa con mi equipo.
+	* : 
  
 + **Sebastián, Ávila**:adult:
 	* **edad:** 19
-	* **Rol:** 
+	* **Rol:** Desarrollador - Armado de Wireframe y diseñador
+	* Estoy iniciando en el mundo laboral tecnologico, me gusta mucho lo que es el desarrollo web ya que estas constantemente aprendiendo cosas nuevas y cada día es un desafio nuevo que hay que resolver. Arbusta me está brindando nuevos conocimientos, experiencias y una nueva forma de pensar. En este proyecto cumplí el Rol de Desarrollador, me encargué de desarrollar la página del Home y el Formulario.
 + **Gonzalez, Thomas**:adult:
 	* **edad:** 26
 	* **Rol:** : Desempeñé el rol de desarrollador de la página cursos. Soy un dev trainee, que en este proyecto se encargó de darle estilo y aportar las ideas que me parecieron interesantes y que podian sumarle a nuestra página de e-learning. Mi intención es adquirir la experiencia y las buenas prácticas para desarrollarme como full stack funcional y productivo, manteniendo un buen ambiente de trabajo y con buena comunicación.
