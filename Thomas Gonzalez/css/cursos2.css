@@ -102,17 +102,19 @@ body,html, main{
     display: block;
     flex-flow: column wrap;
     flex-basis: 100%;   
-    height: 60vh;
-    margin: 20ox 15px;
+    height: 50vh;
+    margin: 20px 15px;
     background-color: rgb(235, 233, 233);  
     text-align: center;  
 }
 section .infoPrincipal .tittle h1{
-    font-size: 48px; 
+    font-size: 40px; 
     padding-top:20px;
     padding-bottom: 10px;
     color:#CB39E2;
-    letter-spacing: 2px;           
+    letter-spacing: 1.5px;
+    text-transform: uppercase; 
+    word-spacing: 3px;     
 }
 section .infoPrincipal .subtittle{
     color: #89868A;
@@ -120,9 +122,10 @@ section .infoPrincipal .subtittle{
 }
 .info .infoPrincipal .textito{
     color: #89868A;
-    font-size: 20px; 
+    font-size: 26px; 
     text-align: center;
     padding-top: 1.5em;
+    font-weight: 600;
 }
 
 /* CARTAS */
