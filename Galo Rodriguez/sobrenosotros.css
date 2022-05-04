@@ -1,4 +1,8 @@
 /*Inicio diseños generales*/
+*{
+    box-sizing: border-box;
+}
+
 html {
     font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
     background-color: rgb(235, 233, 233);
@@ -10,8 +14,9 @@ body {
 
 /*Fin diseños generales*/
 
-/* Comienzo del Header/Nav */
 
+/* Comienzo del Header/Nav */
+/*
 nav {
     background-color: #fff;
     display: flex;
@@ -52,8 +57,8 @@ nav a:hover {
     background-color: #166bda;
     transition: all 200ms;
 }
-
-/* Fin del Header/Nav */
+*/
+/* Fin del Header/Nav */ 
 
 .doble-imagen {
     background-image: url(./IMG/laptop\ generica.jpg);
@@ -78,55 +83,6 @@ main {
     width: 100%;
 }
 
-nav {
-    display: flex;
-    /*pantalla ; flexible*/
-    flex-direction: row;
-    /*coloca los elementos del nav en horizontal*/
-    justify-content: space-around;
-    /* justifica contenido*/
-    width: 100%;
-    /* ancho */
-    height: 70px;
-    /* alto */
-    align-items: center;
-    /* alinear elementos */
-    background-color: white;
-    margin: 0%;
-    /* distancia del margen hacia afuera */
-    padding: 0%;
-    /* distancia del margen hacia adentro */
-}
-
-nav p {
-    font-size: 1.8em;
-    /* tamaño de fuente */
-}
-
-nav a {
-    text-decoration: none;
-    /* decoración de texto */
-    color: #7223A5;
-    /* color de letra */
-    font-weight: 600;
-}
-
-nav input {
-    color: white;
-    width: 140px;
-    height: 40px;
-    background-color: #7223A5;
-    border: none;
-    /* borde */
-    border-radius: 4px;
-
-}
-
-nav input:hover {
-    background-color: #166bda;
-    transition: all 200ms;
-    /* el tiempo que tarda en cambiar el boton de color */
-}
 
 main {
     padding: 0%;
@@ -226,8 +182,4 @@ main img {
 .imagen-texto p{
     font-size: 24px;
     
-}
-
-footer{
-    margin-top: 0;
 }
