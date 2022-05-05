@@ -1,0 +1,165 @@
+/* Inicio diseños generales*/
+html {
+    font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    background-color: rgb(235, 233, 233);
+}
+
+
+body {
+    height: 100vh;
+    margin: 0%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    margin-bottom: 43px;
+}
+/* Cambio de acceder para que aparezca el usuario */
+#submit {
+    display: flex;
+    background-color: #7223A5;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+}
+
+.iniciales_user {
+    text-decoration: none !important;
+    display: flex;
+    width: 31px;
+    height: 30px;
+    background-color: #a370f0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: auto;
+}
+
+#acceder a {
+    text-decoration: none !important;
+    display: flex;
+    margin-right: 4px;
+    align-items: center;
+}
+
+
+#acceder .nombre_user {
+    margin-right: 4px;
+}
+
+/* primera seccion con cartas */
+
+.ult_clase{
+    margin-bottom: 20px;
+
+}
+.ult_curso{
+    width: 266px;
+    height: 235px;
+    border-radius: 37px;
+    background: #e0e0e0;
+    box-shadow:  13px 13px 26px #bebebe,
+             -13px -13px 26px #ffffff;
+}
+
+.ult_curso a{
+    margin: 0px 0px 6px 0px;
+    text-decoration: none;
+}
+.boton p{
+    text-align: center;
+    color: #ffffff;
+}
+
+.boton{
+    border-radius: 50px;
+    background-color: #7223a5;
+    width: 60px;
+    height: 20px;
+}
+
+.ult_clase .saludo, .ult_clase .mensaje_visto{
+    text-align: center;
+    color: #432da7;
+}
+
+.ult_curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px 20px 5px;
+}
+
+.ult_curso .title{
+    color: #817f82;
+}
+
+.ult_curso img{
+    width: 187px;
+    height: 119px;
+}
+
+.ult_curso .barra{
+    margin: 15px 0px 5px 0px;
+    background-color: #bfb9c1;
+    width: 80%;
+    height: 10px;
+    border-radius: 50px;
+}
+.ult_curso .barra .barra_progreso{
+    background-color: #4f8733;
+    width: 30%;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.clases_inscriptos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursos {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* align-content: flex-start; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* Empiezan media querys */
+@media screen and (max-width: 800px) {
+     main{
+         margin-bottom: 2px;
+     }
+    /*  usuario*/
+    .caja_user {
+        background-color: #9f4dd4;
+        display: flex;
+        align-items: center;
+    }
+
+    #acceder a {
+        text-decoration: none !important;
+        display: flex;
+        margin-right: 4px;
+        align-items: center;
+    }
+
+
+    #acceder .nombre_user {
+        margin-right: 4px;
+    }
+}
