@@ -1,5 +1,5 @@
 /*Inicio diseños generales*/
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -58,7 +58,7 @@ nav a:hover {
     transition: all 200ms;
 }
 */
-/* Fin del Header/Nav */ 
+/* Fin del Header/Nav */
 
 .doble-imagen {
     background-image: url(./IMG/laptop\ generica.jpg);
@@ -78,67 +78,60 @@ nav a:hover {
 }
 
 
-
-main {
-    width: 100%;
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(189, 189, 189);
 }
 
 
-main {
-    padding: 0%;
-    margin: 0%;
+.cont-target-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+    
+    
+}
+
+.cont-target-bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.tarjeta{
     display: flex;
     flex-direction: column;
-}
-
-main .E {
-    display: flex;
-    width: 100%;
-    height: 20vh;
-    justify-content: center;
     align-items: center;
+    width: 300px;
+    
 }
 
-.cont-cards {
-    display: flex;
-    /* contenido flexible */
-    flex-direction: row;
-    /* dirección horizontal de las "tarjetas"*/
-    flex-wrap: wrap;
-    width: 100%;
-    align-content: flex-start;
-    justify-content: flex-start;
-
-}
-
-.tarjeta {
-    height: 300px;
-    width: 20%;
-    margin-left: 10%;
-    margin: 0;
-}
-
-.tarjeta h3,
-p {
-    text-align: center;
-
-}
-
-.cont-card .tarjeta .imgTarjeta {
-    display: flex;
+.nosotros {
     width: 100px;
     height: 100px;
-    justify-content: center;
+    border-radius: 50%;
 }
 
-main img {
+main p{
+    text-align: center;
+}
 
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    position: relative;
-    left: 75px;
-
+.argentina{
+    height: 35px;
+    width: 55px;
 }
 
 .tu {
@@ -149,7 +142,8 @@ main img {
     align-items: center;
 }
 
-.tu-imagen {/* 
+.tu-imagen {
+    /* 
     justify-self: center;
     align-items: center;
     justify-content: center; */
@@ -175,11 +169,11 @@ main img {
     text-indent: 10px;
 }
 
-.h3-blanco{
+.h3-blanco {
     font-size: 30px;
 }
 
-.imagen-texto p{
+.imagen-texto p {
     font-size: 24px;
-    
+
 }
