@@ -165,7 +165,7 @@ section .infoPrincipal .subtittle{
    /*  border: solid rgb(24, 20, 20) 5px; */
     flex-basis: 38%;
     border-radius: 25px;
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: #b826a8;
     color: #FFECEC;  
     justify-content: center;

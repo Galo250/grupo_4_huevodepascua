@@ -1,85 +1,71 @@
-@media(min-width: 280px)and (max-width:502px){
-    html,main,.cartas, .container-cards,.info{
-        padding: 0;
-        margin: 0;
-    }    
-    .container-cards{
-        display: flex;
-        flex-flow: column wrap;  
-        padding: 0;
-        margin:0;
-        width: 100%;    
-    }
-    main .info{
-        height: 50vh;
-        
-    }
-    main .info .infoPrincipal .tittle h1{
-        font-size: 20px;
-        text-align: center;
-    }
-    section .infoPrincipal .subtittle{
-        text-align: center;
-        font-size: 14px;
-        padding: 0;
-        margin: 0;
-        text-align: center;   
-    }
-    .info .infoPrincipal .textito p{
-        font-size: 12px; 
-        padding-top: 1em;
-        text-align: center;
-        font-weight: 600;   
-    }    
-    .container-cards .card{
-        width: 100%;
-    }
-    .container-cards .card h4{
-        font-size: 25px;
-    }
-    .container-cards .card p{
-        font-size: 18px;
-    }
-}
-
-@media (min-width:500px) and (max-width:900px){
-    html,main,.cartas, .container-cards,.info{
-        padding: 0;
-        margin: 0;
-    }    
+@media(min-width: 280px)and (max-width:700px){
     *{
         box-sizing: border-box;
+    }  
+    main section .infoPrincipal{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: 40vh;
+    } 
+    main section .infoPrincipal .tittle h1{
+        font-size: 22px;
+        margin: 15px 0px;
+    } 
+    main section .infoPrincipal .subtittle{
+        font-size: 18px;
+        margin: 0;
     }
-    main .info{
-        height: 50vh;
-        text-align: center;
+    main section .infoPrincipal .textito h3{
+        font-size: 16px;
+        margin-top: 0.3em;
+        padding: 0;      
     }
-    section .infoPrincipal .tittle h1{
-        font-size: 32px;
-        /* padding-bottom: 5px; */
+    .cartas .container-cards{
+        width: 100%;
+        margin: 0;
+        display: inline;
     }
-    section .infoPrincipal .subtittle{
+    section .cards{
+        padding: 0px;
+        flex-basis: 100%;
+    }    
+}
+
+@media (min-width:600px) and (max-width:900px){
+    main section .infoPrincipal{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: 40vh;
+    } 
+    main section .infoPrincipal .tittle h1{
+        font-size: 28px;    
+    } 
+    main section .infoPrincipal .subtittle{
         font-size: 20px;
-        text-indent: 5px;
         margin: 10px 0px;
     }
-    .info .infoPrincipal .textito{
-        font-size: 18px; 
-        text-align: center;
-        padding-top: 1em;
-        
+    main section .infoPrincipal .textito h3{
+        font-size: 20px;
+        margin-top: 0.3em;
+        padding: 0;
+           
     }
-    .container-cards{
+    .cartas .container-cards{
+        width: 100%;
+        padding: 0;
+        margin: auto;
         display: flex;
-        flex-flow: column wrap;
-       padding: 0;
-       margin-left: 10%;
-       width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .container-cards .card h4{
-        font-size: 25px;
+    .cards{
+        flex-basis: 80%;         
     }
-    .container-cards .card p{
-        font-size: 18px;
+    section .cards{
+        flex-basis: 80%;
+        margin: 0px 30px;
     }
 }
