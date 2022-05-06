@@ -33,6 +33,12 @@
         padding: 0px;
         /* flex-basis: 100%; */
     }    
+    .info .infoPrincipal .textito {
+
+        padding-top: 0px;
+       
+    }
+    
 }
 
 @media (min-width:600px) and (max-width:900px){
@@ -68,6 +74,11 @@
     section .cards{
         flex-basis: 80%;
         margin: 0px 30px;
+    }
+    .info .infoPrincipal .textito {
+
+        padding-top: 0px;
+       
     }
 }
 @media (min-width:900px) and (max-width:1200px) {

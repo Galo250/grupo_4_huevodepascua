@@ -46,6 +46,10 @@ hr{
     color: #fff;
 }
 
+.foot a i{
+    margin-top: 25px;
+}
+
 .foot a:hover{
     color: #a2a2a2;
 }
@@ -75,13 +79,12 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
     background-color: #282727;
     height: 600px;
 }
 
 .foot {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 hr {
@@ -93,6 +96,11 @@ hr {
 .logo-foot{
     margin: 0px;
     margin-bottom: 20px;
+}
+
+.foot a i{
+    margin-top: 40px;
+
 }
 }
 /* Fin Footer responsive */

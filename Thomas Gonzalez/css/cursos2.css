@@ -14,7 +14,7 @@ html{
 
 /* Comienzo del Header/Nav  */
 
-header nav {
+/* header nav {
     background-color: #fff;
     display: flex;
     flex-direction: row;
@@ -24,8 +24,8 @@ header nav {
     margin:auto;
     height: 10vh;
     width: 100%;
-    }
-.logoImg{
+    } */
+/* .logoImg{
     font-size: 2em;
     font-weight: bolder;
     font-size: 1.8em;
@@ -35,14 +35,14 @@ header nav {
     position: relative;
     justify-content: center;
     
-}
-.secciones-nav {
+} */
+/* .secciones-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 80%;
-}
-nav a {
+} */
+/* nav a {
     text-decoration: none;
     color: #7223A5;
 }
@@ -60,9 +60,9 @@ nav a:hover {
     color: #fff;
 }
 .submit:hover {
-    background-color: #5c405c;  /* #166bda */
+    background-color: #5c405c; 
     cursor: pointer;
-} 
+}  */
 
 
 /* FIN NAV / HEADER */
@@ -240,7 +240,7 @@ section.card h4 {
   }
 
 /* Footer estilo */
-footer{
+/* footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -292,7 +292,7 @@ hr{
 .red{
     height: 30px;
     width: 30px;
-}
+} */
 
 /* footer{
     display: flex;
