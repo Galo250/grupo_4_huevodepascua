@@ -65,13 +65,10 @@ nav{
     display: none;
 }
 
-.logo {
-    display: block;
-    font-weight: bolder;
-    font-size: 1.8em;
-    color: #7223A5;
+.logo img{
+    width: 100px;
+    /* height: 70px; */
 }
-
 #submit {
     background-color: #7223A5;
     transition: all 0.5s ease-in-out;
