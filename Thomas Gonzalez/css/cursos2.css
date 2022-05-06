@@ -12,62 +12,6 @@ html{
 
 /*Fin diseños generales*/
 
-/* Comienzo del Header/Nav  */
-
-/* header nav {
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    margin:auto;
-    height: 10vh;
-    width: 100%;
-    } */
-/* .logoImg{
-    font-size: 2em;
-    font-weight: bolder;
-    font-size: 1.8em;
-    color: #7223A5;
-    display: flex;
-    width: 20%;
-    position: relative;
-    justify-content: center;
-    
-} */
-/* .secciones-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-} */
-/* nav a {
-    text-decoration: none;
-    color: #7223A5;
-}
-nav a:hover {
-    text-decoration: underline 3px;    
-}
-
-.submit {
-    background-color: #7223A5;
-    border: 0.5px white solid;
-    border-radius: 4px;
-    font-size: 17px;
-    width: 140px;
-    height: 40px;
-    color: #fff;
-}
-.submit:hover {
-    background-color: #5c405c; 
-    cursor: pointer;
-}  */
-
-
-/* FIN NAV / HEADER */
-
-
 
 /* COMIENZO BODY */
 
@@ -94,10 +38,6 @@ body,html, main{
     width: 170px;
     font-size: 18px;
 }
-/* .boton-comenzar a{
-    font-size: 15px;
-    text-align: center;
-} */
 .infoPrincipal {
     display: block;
     flex-flow: column wrap;
@@ -170,11 +110,13 @@ section .infoPrincipal .subtittle{
     background-color: #b826a8;
     color: #FFECEC;  
     justify-content: center;
-    align-items: center;  
+    align-items: center;
+    margin-bottom: 50px;  
 }
-.card .input {
+.card .iniciar {
     margin: 0px 15px;
-    background-color: white;
+    background-color: #763b97e8;
+    border: solid 0.5px white;
 }
 
 .container-cards .card:hover{
@@ -185,6 +127,7 @@ section .infoPrincipal .subtittle{
     box-shadow: -1px 6px 21px 3px rgba(138,123,138,1);
     cursor: pointer;
     flex-basis: 40%;
+    
 }
 section.card h3 {
     text-align: center;
@@ -238,142 +181,4 @@ section.card h4 {
   .iniciar:hover{
     background-color: #3d1459;
   }
-
-/* Footer estilo */
-/* footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 100px;
-    width: 100%;
-    height: 200px;
-    background-color: #282727;
-}
-
-
-.foot{
-    height: 200px;
-    width: 400px;
-    text-align: center;
-    color: #9F4DD4;
-    font-size: 1.3em;
-}
-
-
-hr{
-   margin: auto;
-    height:18vh;
-    width:.1vw;
-    border-width:0;
-    color:#634f67;
-    background-color:#72476c;
-}
-
-
-.fa-brands{
-    color: #fff;
-    font-size: 1.8em;
-
-}
-
-.fa-brands:hover{
-    color: #969696;
-}
-
-.foot a{
-  margin-right: 5px;
-    color: #fff;
-}
-
-.foot a:hover{
-    color: #a2a2a2;
-}
-
-.red{
-    height: 30px;
-    width: 30px;
-} */
-
-/* footer{
-    display: flex;
-    flex-direction:row;
-    width: 100%;
-    height: 30vh;
-    background-color: rgba(62, 58, 58, 0.87);
-}
-
-.container-foot{
-    display: flex;
-    align-items: center;
-    flex-flow: row nowrap;
-    width: 100%;
-    border-top:solid 2.5px rgb(98, 81, 81);
-    
-    } 
-.container-foot .hexagonArea{
-    display: flex;
-    justify-content: center;
-    
-} */
-/* .container-foot .hexagonArea .hexagon {
-    position: relative;
-    width: 100px;
-    height: 80px;              
-    margin: 15px 15px;
-    clip-path: polygon(0 25%,50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-    background: rgba(135, 67, 108, 0.91);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    cursor: pointer;
-    transition: .3s;
-}
-.container-foot .hexagonArea .last{
-    transform: translateY(-45px);
-    
-} 
-.container-foot .hexagonArea .hexagon img { 
-    width: 100%;
-    height: 80px;
-    clip-path: polygon(0 25%,50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-}
-*/
-/* .container-foot .hexagonArea .hexagon h3{
-    text-transform: capitalize;
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-} */
-
- /* Hover de los hexagonos */
-
-/* .container-foot .hexagonArea .hexagon:hover{ 
-    
-    background-color: rgba(61, 48, 65, 0.873);
-    transform:scale(1.2) ;
-    color: white;
-}
- */
-
-
-/* TEXTO FOOTER */
-/* .footercish{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-.footerInfo{
-    display: flex;
-    flex-direction: column;
-    margin: 5px 10px;
-    justify-content: center;
-    width: 70%;
-    
-}
-.info-footer{
-    width: 70%;
-}
- */
 
