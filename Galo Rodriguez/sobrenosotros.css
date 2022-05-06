@@ -14,52 +14,6 @@ body {
 
 /*Fin diseños generales*/
 
-
-/* Comienzo del Header/Nav */
-/*
-nav {
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-nav a {
-    text-decoration: none;
-    color: #7223A5;
-}
-
-nav a:hover {
-    text-decoration: underline 3px;
-}
-
-.logo {
-    font-weight: bolder;
-    font-size: 1.8em;
-    color: #7223A5;
-}
-
-.submit {
-    background-color: #7223A5;
-    border: none;
-    border-radius: 4px;
-    font-size: 15px;
-    width: 140px;
-    height: 40px;
-    color: #fff;
-    cursor: pointer;
-}
-
-.submit:hover {
-    background-color: #166bda;
-    transition: all 200ms;
-}
-*/
-/* Fin del Header/Nav */
-
 .doble-imagen {
     background-image: url(./IMG/laptop\ generica.jpg);
     height: 90vh;
@@ -146,10 +100,6 @@ main p{
 }
 
 .tu-imagen {
-    /* 
-    justify-self: center;
-    align-items: center;
-    justify-content: center; */
     margin-right: 10%;
     width: 120px;
     height: 120px;
