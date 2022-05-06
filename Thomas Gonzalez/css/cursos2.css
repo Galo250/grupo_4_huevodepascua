@@ -108,7 +108,7 @@ body,html, main{
     text-align: center;  
 }
 section .infoPrincipal .tittle h1{
-    font-size: 40px; 
+    font-size: 38px; 
     padding-top:20px;
     padding-bottom: 10px;
     color:#CB39E2;
@@ -118,7 +118,8 @@ section .infoPrincipal .tittle h1{
 }
 section .infoPrincipal .subtittle{
     color: #89868A;
-    font-size: 26px;    
+    font-size: 24px;
+    margin: 20px 0px;    
 }
 .info .infoPrincipal .textito{
     color: #89868A;

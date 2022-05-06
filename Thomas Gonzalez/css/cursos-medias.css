@@ -1,34 +1,37 @@
-@media(min-width: 280px)and (max-width:700px){
+@media(min-width: 280px)and (max-width:600px){
     *{
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
     }  
     main section .infoPrincipal{
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
         height: 40vh;
     } 
     main section .infoPrincipal .tittle h1{
-        font-size: 22px;
-        margin: 15px 0px;
+        font-size: 20px;
     } 
     main section .infoPrincipal .subtittle{
-        font-size: 18px;
+        font-size: 16px;
         margin: 0;
+        padding: 0;
     }
     main section .infoPrincipal .textito h3{
-        font-size: 16px;
-        margin-top: 0.3em;
-        padding: 0;      
+        font-size: 14px;
+        padding: 0;    
+        margin: 0;  
     }
     .cartas .container-cards{
         width: 100%;
         margin: 0;
-        display: inline;
+        display: block;
+        justify-content: center;
+        align-items: center;
     }
     section .cards{
         padding: 0px;
-        flex-basis: 100%;
+        /* flex-basis: 100%; */
     }    
 }
 
@@ -40,26 +43,24 @@
         height: 40vh;
     } 
     main section .infoPrincipal .tittle h1{
-        font-size: 28px;    
+        font-size: 26px;    
     } 
     main section .infoPrincipal .subtittle{
-        font-size: 20px;
-        margin: 10px 0px;
+        font-size: 18px;
+        margin: 5px 0px;
     }
     main section .infoPrincipal .textito h3{
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 0.3em;
         padding: 0;
-           
     }
     .cartas .container-cards{
-        width: 100%;
+        width: 80%;
         padding: 0;
         margin: auto;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
     }
     .cards{
         flex-basis: 80%;         
@@ -68,4 +69,16 @@
         flex-basis: 80%;
         margin: 0px 30px;
     }
+}
+@media (min-width:900px) and (max-width:1200px) {
+    main section .infoPrincipal .tittle h1{
+        
+    } 
+    main section .infoPrincipal .subtittle{
+        
+    }
+    main section .infoPrincipal .textito h3{
+        
+    }
+    
 }
