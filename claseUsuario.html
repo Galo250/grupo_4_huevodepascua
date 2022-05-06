@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clases logica de programación</title>
-    <link rel="shortcut icon" href="../logo_2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./IMG/logo_2.ico" type="image/x-icon">
     <!-- Parte de css -->
-    <link rel="stylesheet" type="text/css" href="./css/claseUserStyle.css">
-    <link rel="stylesheet" href="../Ezequiel Rodriguez/CSS/HEADER-FOOTER.CSS">
+    <link rel="stylesheet" type="text/css" href="./CSS/claseUserStyle.css">
+    <link rel="stylesheet" href="./CSS/HEADER-FOOTER.CSS">
     <!-- Otros link -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
@@ -22,42 +22,48 @@
 </head>
 
 <body>
-    <!-- navegador -->
-    <nav>
-        <!-- Navegador -->
-        <div class="logo" href="header">
-            <img src="../Sofia Serrano/img/logo_nav.png" alt="">
-        </div>
+    <header>
+        <!-- Encabezado -->
 
-        <ul class="menu">
-            <li id="inicio"><a class="header menu-i" href="../Sebastían Avila/index.html">Inicio</a></li>
+        <nav>
+            <!-- Navegador -->
 
-            <li id="sobreNosotros"><a class="header menu-i" href="../Galo Rodriguez/sobrenosotros.html">Sobre
-                    Nosotros</a></li>
 
-            <li id="especializaciones"><a class="header menu-i"
-                    href="../Ezequiel Rodriguez/CURSOS.HTML">Especializaciones</a></li>
+            <div class="logo" href="header">
+                <img src="./IMG/CLASES/logo_nav.png" alt="Logo Siwi">
+            </div>
 
-            <li id="cursos"><a class="header menu-i" href="../Thomas Gonzalez/cursos2.html">Cursos</a></li>
+            <ul class="menu">
+                <li id="inicio"><a class="header menu-i" href="index.html">Inicio</a></li>
 
-            <li id="acceder"><a href="clasesInscriptasUser.html">
-                    <div class="caja_user" id="submit">
-                        <div class="iniciales_user">
-                            <p>CG</p>
-                        </div>
-                        <p class="nombre_user">Carlos Gomez</p>
-                    </div>
-                </a>
-            </li>
-            <!-- <input id="submit" class="usuario" type="submit"
-                value="Carlos Gómez"> -->
-        </ul>
-        <div class="menu-btn">
-            <i class="fas fa-bars"></i>
-        </div>
+                <li id="sobreNosotros"><a class="header menu-i" href="sobrenosotros.html">Sobre
+                        Nosotros</a></li>
 
-        <!-- Fin Nav -->
-    </nav>
+                <li id="especializaciones"><a class="header menu-i"
+                        href="especializaciones.html">Especializaciones</a></li>
+
+                <li id="cursos"><a class="header menu-i" href="cursos.html">Cursos</a></li>
+                            
+                <li id="acceder"><a href="clasesInscriptasUser.html">
+                                <div class="caja_user" id="submit">
+                                    <div class="iniciales_user">
+                                        <p>CG</p>
+                                    </div>
+                                    <p class="nombre_user">Carlos Gomez</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <!-- Fin Nav -->
+        </nav>
+
+    </header> <!-- Fin Header -->
+
+
     <!-- Insertar  -->
     <p class="ruta"><span>Logica de programacion</span><i class="fa-solid fa-angle-right"></i><span> Logica de
             programacion parte1 </span> <i class="fa-solid fa-angle-right"></i><span> Introduccion a tema</span></p>
@@ -130,7 +136,7 @@
             <h2 class="titulo">Como hacer acordeon con html y css</h1>
                 <article class="video">
                     <video width="940" height="500" controls>
-                        <source src="img/Como hacer un menu desplegable con HTML y CSS.mp4" type="video/mp4" />
+                        <source src="./IMG/CLASES/Como hacer un menu desplegable con HTML y CSS.mp4" type="video/mp4" />
                     </video>
                 </article>
                 <h2 class="transcrip">Transcripción <span><i class="fa-solid fa-align-left"></i></span></h2>
@@ -183,7 +189,6 @@
         </section>
     </main>
 
-    <!-- Inserta footer -->
     <footer>
         <!-- Inicio de footer -->
 
@@ -207,24 +212,25 @@
 
             <p class="redes">Siwi</p>
 
-            <a class="a-foot" href="../Sebastían Avila/index.html">Home</a> <br> <br>
+            <a class="a-foot" href="index.html">Home</a> <br> <br>
 
-            <a class="a-foot" href="../Ezequiel Rodriguez/CURSOS.HTML">Especializaciones</a> <br> <br>
+            <a class="a-foot" href="especializaciones.html">Especializaciones</a> <br> <br>
 
-            <a class="a-foot" href="../Thomas Gonzalez/cursos2.html">Cursos</a>
+            <a class="a-foot" href="cursos.html">Cursos</a>
 
         </div>
 
         <hr>
 
         <div class="foot">
-            <img class="logo-foot" src="../Sofia Serrano/img/logo_2.png" alt="Logo">
+            <img class="logo-foot" src="/IMG/CLASES/logo_2.png" alt="Logo">
         </div>
 
     </footer> <!-- Fin del footer -->
+
     <!-- Parte del script para el menu responsive -->
-    <script src="js/claseUserJs.js"></script>
-    <script src="../Ezequiel Rodriguez/JS/CURSOS.JS"></script>
+    <script src=".JS/claseUserJs.js"></script>
+    <script src="./JS/CURSOS.JS"></script>
 </body>
 
 </html>

@@ -15,7 +15,7 @@ body {
 /*Fin diseños generales*/
 
 .doble-imagen {
-    background-image: url(./IMG/laptop\ generica.jpg);
+    background-image: url(../../IMG/SOBRE_NOSOTROS/laptop\ generica.jpg);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -109,7 +109,7 @@ main p{
 }
 
 .imagen-texto {
-    background-image: url(./IMG/laptop\ generica-2.jpg);
+    background-image: url(../../IMG/SOBRE_NOSOTROS/laptop\ generica-2.jpg);
     color: white;
     height: 70vh;
     width: 100%;
