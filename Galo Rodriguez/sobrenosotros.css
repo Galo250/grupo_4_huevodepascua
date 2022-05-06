@@ -83,7 +83,7 @@ h2 {
     font-size: 2em;
     margin-top: 50px;
     margin-bottom: 50px;
-    color: rgb(189, 189, 189);
+    color: rgb(141, 137, 137);
 }
 
 
@@ -96,8 +96,10 @@ h2 {
     width: 100%;
     height: 400px;
     margin-bottom: 100px;
-    
-    
+}
+
+.cont-target-top p{
+    color: rgb(91, 88, 88);
 }
 
 .cont-target-bot{
@@ -109,6 +111,10 @@ h2 {
     width: 100%;
     height: 400px;
     margin-bottom: 50px;
+}
+
+.cont-target-bot{
+    color: rgb(91, 88, 88);
 }
 
 .tarjeta{
@@ -127,6 +133,7 @@ h2 {
 
 main p{
     text-align: center;
+    
 }
 
 .argentina{
@@ -175,5 +182,5 @@ main p{
 
 .imagen-texto p {
     font-size: 24px;
-
+text-align: center;
 }
