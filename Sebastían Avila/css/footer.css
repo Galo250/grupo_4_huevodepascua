@@ -79,13 +79,12 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
     background-color: #282727;
     height: 600px;
 }
 
 .foot {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 hr {
