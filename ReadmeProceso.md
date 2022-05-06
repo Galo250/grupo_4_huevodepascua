@@ -239,8 +239,14 @@ Lo sometimos a votación entre todos los integrantes del grupo y tuvo más votos
 **Martes 26/04** Asistimos a la oficina y no ase vanzó mucho con el proyecto a razón de la evaluación, y estabamos enfocados en estudiar y repasar ese día. 
 
 **Miercoles 27/04**: Seguimos con el desarrollo de la página. Nos juntamos en equipo para ayudar a integrantes del equipo que tuvieron problemas con las páginas que estaban desarrollando. Uno de los problemas fue que la sección de formulario de la página acceder, no hacía la transición entre el formulario registro e inicio de sesión. Lo pudimos resolver arreglando la ruta en la que estaba el archvo de js ya que no estaba dentro de la carpeta correspondiente. El otro problema que tuvimos fue con la página especializaciones, la sección en la que se veían las cartas con la información que brindaba información acerca de las especializaciones disponibles.      
-
 **Jueves 28/04**: 
+Seguimos buscando los errores en la página de formularios, al ver que no había más errores entre las trancisiones entre el registro e inicio de sesión. Comenzamos a desarrollar la vista responsive de la página formulario. 
 
 **Viernes 29/04**:
 
+**Miercoles 04/05**: Plantemos cambiar el logo de siwi por el siguiente, todos estuvimos de acuerdo. En este día no avanzamos mucho sobre el proyecto porque teníamos una evaluación de javascript y tuvimos la presentación de valtech 
+![logo_nav](https://user-images.githubusercontent.com/98984365/167158263-8d761522-4ab7-416a-b2ca-f8eb2ee4c3a0.png)
+
+**Jueves 05/05**: Comenzamos a desarrollar la vista responsive de la página "sobre nosotros". 
+
+**Viernes 06/05**: 
