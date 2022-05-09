@@ -68,7 +68,9 @@ Link de Figma en dónde hicimos el diseño: https://www.figma.com/file/nkloGcjKN
 
 ### Logo
 
-![Logo](https://user-images.githubusercontent.com/98984365/165819555-9259f74a-12b7-43d9-ba56-5d3873f22c7a.png)
+![logo_nav](https://user-images.githubusercontent.com/98984365/167158263-8d761522-4ab7-416a-b2ca-f8eb2ee4c3a0.png)
+
+![logo_normal](https://user-images.githubusercontent.com/98984365/167158154-0ee82561-dc76-4320-8795-66dfc3203e45.png)
 
 ### Páginas hechas 
 - **Home**
