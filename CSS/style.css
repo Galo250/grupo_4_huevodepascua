@@ -460,8 +460,6 @@ div hr {
 
     .presentacion .pres2 {
         font-size: 1em;
-        /* width: 250px;
-        margin-left: 50px; */
     }
 
     .foto-pres{
@@ -537,6 +535,9 @@ div hr {
     .box-cursos{
         width: 300px;
 }
+    .comentario{
+        width: auto;
+    }
 }
 
 @media (max-width:800px) {
