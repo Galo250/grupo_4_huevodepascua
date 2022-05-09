@@ -182,9 +182,6 @@ div a {
 
 /* Cards giratorias inicio */
 
-
-/*Inicio del Main/Section*/
-
 h2{
     margin-top: 1.1em;
     font-size: 2.5em;
@@ -547,7 +544,7 @@ div hr {
     #h2-cursos{
         position: relative;
         height: 200px;
-        top: 12vh;
+        top: 10vh;
     }
 }
 

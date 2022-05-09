@@ -140,6 +140,12 @@ nav{
     }
 }
 
+@media (max-width:450px) {
+    .menu{
+        top: 3%;
+    }
+}
+
 /* Fin MEDIA QUERIES - header responsive */
             /*FIN HEADER TOTAL*/
 
