@@ -26,7 +26,7 @@ Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinar
 	* **Rol:** desarrollador - diseñador de "sobre nosotros"
 	* esta es mi primera experiencia en el mundo laboral de la tecnología, en este proyecto pude implimentar todos los conocimientos que adquiri a lo largo de las clases y pude desarrollar más a fondo mi compañerismo.
  
-+ **Sebastián, Ávila**:adult:
++ **Ávila, Sebastián**:adult:
 	* **edad:** 19
 	* **Rol:** Desarrollador - Armado de Wireframe y diseñador
 	* Estoy iniciando en el mundo laboral tecnologico, me gusta mucho lo que es el desarrollo web ya que estas constantemente aprendiendo cosas nuevas y cada día es un desafio nuevo que hay que resolver. Arbusta me está brindando nuevos conocimientos, experiencias y una nueva forma de pensar. En este proyecto cumplí el Rol de Desarrollador, me encargué de desarrollar la página del Home y el Formulario.
