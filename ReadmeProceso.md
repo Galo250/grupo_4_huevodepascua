@@ -247,6 +247,6 @@ Seguimos buscando los errores en la página de formularios, al ver que no había
 **Miercoles 04/05**: Plantemos cambiar el logo de siwi por el siguiente, todos estuvimos de acuerdo. En este día no avanzamos mucho sobre el proyecto porque teníamos una evaluación de javascript y tuvimos la presentación de valtech 
 ![logo_nav](https://user-images.githubusercontent.com/98984365/167158263-8d761522-4ab7-416a-b2ca-f8eb2ee4c3a0.png)
 
-**Jueves 05/05**: Comenzamos a desarrollar la vista responsive de la página "sobre nosotros". 
+**Jueves 05/05**: Comenzamos a desarrollar la vista responsive de la página "sobre nosotros" y reemplazar el logo viejo por el nuevo en las páginas. 
 
-**Viernes 06/05**: 
+**Viernes 06/05**: Tuvimos la retro en el cual tuvimos propuestas para mejorar por de el cliente. En este caso fueron dos, unificar la página de home con la de especializaciones y unir las páginas del proyecto en uno solo y agruparlas según el formato o tipo de documento. 
