@@ -35,8 +35,9 @@ Somos un pequeño grupo de desarrolladores Trainee con perfiles multidisciplinar
 	* **Rol:** : Desempeñé el rol de desarrollador de la página cursos. Soy un dev trainee, que en este proyecto se encargó de darle estilo y aportar las ideas que me parecieron interesantes y que podian sumarle a nuestra página de e-learning. Mi intención es adquirir la experiencia y las buenas prácticas para desarrollarme como full stack funcional y productivo, manteniendo un buen ambiente de trabajo y con buena comunicación.
 + **Serrano, Sofía**:woman:
 	* **edad:** 21
-	* **Rol:** 
-	* 
+	* **Rol:** Desarrollador - Armado de Wireframe y diseño
+	En este proyecto pude implementar de manera práctica lo visto durante las clases que tuvimo e invetigar por nuestra cuenta lo que queríamos implentar en nuestro proyecto. En este caso me encargué del desarrollo de la página vista usuario, en el que este puede consultar las clases que se tomaron y se vieron por última vez.   
+	
 ## Listado de 6 páginas que tomamos como referencia 
 - **Platzi** link : https://platzi.com/
 
