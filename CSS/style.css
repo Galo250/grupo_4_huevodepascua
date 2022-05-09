@@ -534,7 +534,12 @@ div hr {
 }
     .comentario{
         width: auto;
-    }
+}
+    .back p {
+	    font-size: large;
+	    line-height:normal;
+}
+
 }
 
 @media (max-width:800px) {
