@@ -1,19 +1,23 @@
 @media(min-width:280px) and (max-width: 600px){
     .cont-target-top{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin: 0%;
         padding: 0%;
         flex-wrap: wrap;
+        align-items: center;
     }
     
     .cont-target-bot{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin: 0%;
         padding: 0%;
-        margin-top: 200px;
         flex-wrap: wrap;
-        
+        align-items: center;
+    }
+
+    .imagen-texto p{
+        font-size: 15px;
     }
 }
