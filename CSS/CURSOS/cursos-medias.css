@@ -1,7 +1,7 @@
 
 @media(min-width: 300px)and (max-width:450px){
     .info{
-        height: 50vh;
+        height: 40vh;
     }
     main section .infoPrincipal .tittle h1{
         font-size: 20px;
@@ -13,7 +13,8 @@
     }
     main section .infoPrincipal .textito h3{
         font-size: 16px;
-        padding: 0;    
+        padding: 0;  
+        margin-top: -15px;
        
     }
     .cartas .container-cards{
@@ -30,9 +31,7 @@
 }
 @media(min-width: 450px)and (max-width:600px){
     *{
-        box-sizing: border-box;
-       /*  justify-content: center; */
-        
+        box-sizing: border-box;       
     }  
     main section .infoPrincipal{
         margin: 0;
@@ -74,7 +73,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        height: 40vh;
+        height: 30vh;
     } 
     main section .infoPrincipal .tittle h1{
         font-size: 30px;    

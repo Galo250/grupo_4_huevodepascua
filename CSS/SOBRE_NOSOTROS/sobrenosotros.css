@@ -52,6 +52,7 @@ h2 {
 
 .cont-target-top p{
     color: rgb(91, 88, 88);
+    font-weight: 600;
 }
 
 .cont-target-bot{
@@ -65,6 +66,7 @@ h2 {
 
 .cont-target-bot{
     color: rgb(91, 88, 88);
+    font-weight: 600;
 }
 
 .tarjeta{
@@ -73,6 +75,12 @@ h2 {
     align-items: center;
     width: 300px;
     
+}
+
+.parrafo-emocional{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.5px;
 }
 
 .nosotros {
